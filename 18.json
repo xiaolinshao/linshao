@@ -860,13 +860,6 @@
         },
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-                {
-            "name": "p9p测试源",
-            "type": 0,
-            "url": "https://qu.ax/LPlS.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo":"https://epg.112114.xyz/logo/{name}.png"
-        },
        {
             "name":"范明",
             "type":0,
@@ -954,13 +947,13 @@
         },
         {"type":0,"pass": true,"name":"影子TV","url":"https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/影子TV.txt","logo":"http://epg.51zmt.top:8000/{logo}","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}","playerType":1},
         {
-            "name": "晴天🌞TV",
+            "name": "missTV",
             "type": 0,
             "header": {
         "user-agent": "Mozilla/5.0(SymbianOS/9.4;Series60/5.0NokiaN97-1/20.0.019;Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko)BrowserNG/7.1.18124",
         "referer": "https://github.com/"
       },
-            "url": "https://qu.ax/vszk.txt",
+            "url": "https://dpaste.com/HF5KCGRJH.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
