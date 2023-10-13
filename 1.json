@@ -85,7 +85,6 @@
 }},
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio": 3.8},
 "jar":"https://qu.ax/dDSz.jpg;md5;510FA1663F7067BD4D40DE06097202BF"},
-{"key":"荐片","name":"📀荐片影视","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","playerType":1,"searchable":1,"quickSearch":1,"ext":"https://qu.ax/GWWS.js"},
         {
             "key": "1080dyw",
             "name": "1080电影屋",
@@ -259,7 +258,7 @@
      {"key":"drpy_js_爱看机器人","name":"爱看机器人","style":{ "type":"rect", "ratio":0.8 },"type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ikanbot2.js"},
         
         /*猫系列*/
-        {"key":"bb_bulei","name":"🐱布蕾[cat]","type":3,"api":"https://qu.ax/FRhB.js"},{"key":"bb_yrzj","name":"伊人","type":3,"api":"https://qu.ax/UovZ.js"},
+        {"key":"bb_bulei","name":"🐱布蕾[cat]","type":3,"api":"https://qu.ax/FRhB.js"},
         { 
         "key": "在线之家", 
         "name": "❤🐱猫在线之家", 
@@ -420,16 +419,6 @@
         "type": 3,
         "style":{ "type":"rect", "ratio":0.8 },
         "api": "https://qu.ax/FJzF.js"
-      },
-      {
-        "key": "猫18AV",
-        "name": "🐱猫18AV",
-        "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-        "type": 3,
-        "style":{ "type":"rect", "ratio":0.8 },
-        "api": "https://qu.ax/vkhG.js"
       },
       {
         "key": "素白白",
