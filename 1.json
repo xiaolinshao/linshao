@@ -85,6 +85,9 @@
                 "手动嗅探视频链接过滤词": ".html#?url=http"
             }
         },
+        {"key": "csp_XYQHiker_JOJO","name":"📀JOJO","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,
+        "jar": "./1012.jar",
+        "ext":"https://qu.ax/kdl.json"},
             {
             "key": "jojo直连",
             "name": "JOJO|直连",
