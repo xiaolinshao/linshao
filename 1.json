@@ -21,17 +21,14 @@
             "电影"]
             },
             {
-            "key": "jojo弹幕直连",
-            "name": "JOJO弹幕版|直连",
+            "key": "jojo直连",
+            "name": "JOJO|直连",
             "type": 3,
-            "jar": "./fix1013.jar",
+            "jar": "./1013.jar",
             "api": "csp_Jiohub",
             "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "danmu": true
-            }
+            "changeable": 1
         },
         {
             "key": "图图影视",
@@ -115,7 +112,7 @@
   ]
 }},
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio": 3.8},
-"jar":"https://qu.ax/dDSz.jpg;md5;510FA1663F7067BD4D40DE06097202BF"},
+"jar":"./有来急救百科.jar"},
         {
             "key": "1080dyw",
             "name": "1080电影屋",
