@@ -6,7 +6,7 @@
       "type": 3,"style":{ "type":"rect", "ratio":1.485 },
       "api": "csp_Local",
       "searchable": 0,
-      "changeable": 0,
+      "changeable": 0
     },
     {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type": 3,"style":{ "type":"rect", "ratio":3.8 },"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,
 "jar":"./有来急救百科.jar"},
@@ -40,7 +40,6 @@
       "filterable": 1,
       "changeable": 1,
       "api":"py_douyin",
-      "style":{ "type":"rect", "ratio":1.33 },
           "ext":"https://qu.ax/YspE.py"
   },
     {
@@ -179,7 +178,7 @@
       "type": 3,"style":{ "type":"rect", "ratio":1.485 },
       "api": "csp_Star",
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 1
     },
   {
       "key": "csp_Nbys",
