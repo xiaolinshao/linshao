@@ -10,6 +10,7 @@
     },
     {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type": 3,"style":{ "type":"rect", "ratio":3.8 },"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,
 "jar":"./有来急救百科.jar"},
+{"key":"jojo","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"jar":"./1012.jar","ext":{"danmu": true}},
             {
             "key": "jojo直连",
             "name": "JOJO|直连",
@@ -446,6 +447,7 @@
             "日韩剧",
             "电影"]
             },
+            {"key":"csp_JianPian","name":"🔨荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ownjpykxttjzuhy.jiesiwa.com"},
       /*道长线路*/
       {"key":"drpy_js_农民","name":"影视 | 农民[js]","type": 3,"style":{ "type":"rect", "ratio":1.485 },"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/农民影视.js"},
  {"key":"drpy_js_荐片","name":"荐片 | 影视[js]","type": 3,"style":{ "type":"rect", "ratio":1.485 },"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"},
