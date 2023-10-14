@@ -9,10 +9,17 @@
       "changeable": 0,
       "style":{ "type":"rect", "ratio":0.8 }
     },
-    {       "key": "yp",       "name": "YP",       "type": 1,       "playerType": 1,       "api": "http://zy.xzam.cn/api.php/provide/vod/",          "categories": [
+    {
+      "key": "yp",
+      "name": "YP",
+      "type": 1,
+      "playerType": 1,
+      "api": "http://zy.xzam.cn/api.php/provide/vod/",
+      "categories": [
             "欧美剧",
             "日韩剧",
-            "电影"]  },
+            "电影"]
+            },
             {
             "key": "jojo弹幕直连",
             "name": "JOJO弹幕版|直连",
