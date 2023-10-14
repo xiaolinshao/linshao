@@ -13,6 +13,30 @@
             "欧美剧",
             "日韩剧",
             "电影"]  },
+            {
+            "key": "jojo弹幕直连",
+            "name": "JOJO弹幕版|直连",
+            "type": 3,
+            "jar": "./fix1013.jar",
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "图图影视",
+            "name": "🐰图图┃影视",
+            "type": 3,
+            "api": "csp_APPTT",
+            "jar": "./fix1013.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "pcnBMY0w5bjNJRkh0anpQKnw2cE1NY1RjR2JBTDVFUGxkTW1FZXdhUkhiVlVzanpQKnxodHRwOi8vMTE5LjEwMS4xNDguMTI1OjU1NjYv"
+        },
     {
       "key":"py_douyin",
       "name":"💋抖音直播",
