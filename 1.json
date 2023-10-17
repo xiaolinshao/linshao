@@ -34,7 +34,10 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"drpy_js_爱看机器人","name":"爱看机器人","type":3,"style":{"type":"rect","ratio":1.485},"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ikanbot2.js"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 {"key":"csp_1","name":"🌏🐝猫❤️cat💛vod💚线💙路🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_wuge","searchable":0,"changeable":0},
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+{"key":"douyin","name":"🐱抖音","searchable":1,"quickSearch":1,"filterable":1,"type":3,"style":{"type":"rect","ratio":1.485},"api":"https://qu.ax/mgBL.js"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"bb_bulei","name":"🐱布蕾[cat]","type":3,"style":{"type":"rect","ratio":1.485},"api":"https://qu.ax/FRhB.js"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -597,7 +600,7 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"kuakezy","name":"夸克资源","type":1,"style":{"type":"rect","ratio":1.485},"api":"http://kuakezy1.com/api.php/provide/vod/","searchable":1,"changeable":1,"quickSearch":1,"filterable":1},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"49zy","name":"49资源/🇨🇳国内","type":1,"style":{"type":"rect","ratio":1.485},"api":"https://49zyw.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1},
+{"key":"49zy","name":"49资源/🇨🇳国内","type":1,"style":{"type":"rect","ratio":1.485},"api":"https://49zyw.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"playUrl":"json:https://49zyplayerurl.com/?url="},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"qhzy","name":"奇虎资源","type":1,"style":{"type":"rect","ratio":1.485},"api":"https://caiji.qhzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -649,13 +652,161 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"dr_武享吧","name":"格斗|热血","type":3,"style":{"type":"rect","ratio":1.485},"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/武享吧.js"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"iqiyi","name":"爱奇艺","type":1,"style":{"type":"rect","ratio":1.485},"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/iqiyi","searchable":1,"quickSearch":1},
+{"key":"iqiyi","name":"爱奇艺","type":1,"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/iqiyi","searchable":1,"quickSearch":1},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"qq","name":"腾讯视频","type":1,"style":{"type":"rect","ratio":1.485},"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1},
+{"key":"qq","name":"腾讯视频","type":1,"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"360kan","name":"360影视","type":1,"style":{"type":"rect","ratio":1.485},"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/360kan","searchable":1,"quickSearch":1},
+{"key":"360kan","name":"360影视","type":1,"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/360kan","searchable":1,"quickSearch":1},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"sohu","name":"搜狐","type":1,"style":{"type":"rect","ratio":1.485},"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1},
+{"key":"sohu","name":"搜狐","type":1,"style":{"type":"rect","ratio":1.485},"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1},
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+{
+      "key": "小猫",
+      "name": "小猫┃影视",
+      "type": 1,"style":{"type":"rect","ratio":1.485},
+      "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "悬疑片",
+        "喜剧片",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "犯罪片",
+        "记录片"
+      ],
+      "playUrl":""
+    },
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    {
+            "key": "Mino",
+            "name": "👻Mino┃App",
+            "type": 3,"style":{"type":"rect","ratio":1.485},
+            "api": "csp_AppMao",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir","jar":"./小米.jar"
+        },
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+{
+      "key": "應用商店",
+      "name": "應用商店",
+      "type": 3,"style":{"type":"rect","ratio":1.485},
+      "api": "csp_Market",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": [
+        {
+          "name": "正電視版-4.1-4.4",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版電視版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正電視版-python-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版電視版-java-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版電視版-java-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版手機版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版手機版-python-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版手機版-java-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "正版手機版-java-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发電視版-java-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-Java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发電視版-java-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发電視版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发電視版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发手機版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发手機版-python-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发手機版-java-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "开发手機版-java-v8",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "派大星直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.png"
+        },
+        {
+          "name": "环球直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.png"
+        },
+        {
+          "name": "红鞋子👟",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/RedShoes_1.64.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/RedShoes_1.64.png"
+        }
+      ]
+    },
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"push_agent","name":"❤推送|lf_push","type":3,"api":"csp_Push"}],
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
