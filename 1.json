@@ -726,6 +726,104 @@
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
            "version": "官方更新拾分钟后自动刷新"
         }]},
+        {
+    "name": "so-v7a",
+    "list": [
+      {
+        "name": "荐片",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_armeabi_v7a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "磁力-1",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_armeabi_v7a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "磁力-2",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_armeabi_v7a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "mitv米库",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libmitv.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P2P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp2p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P3P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp3p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P4P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp4p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P5P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp5p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P6P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp6p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P7P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp7p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P8P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp8p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      },
+      {
+        "name": "P9P",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp9p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "32位"
+      }
+    ]
+  },
+  {
+    "name": "so-v8a",
+    "list": [
+      {
+        "name": "荐片",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_arm64_v8a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "64位"
+      },
+      {
+        "name": "磁力-1",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_arm64_v8a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "64位"
+      },
+      {
+        "name": "磁力-2",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_arm64_v8a.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "64位"
+      }]},
       { "name": "蜂蜜大屌电视版更新",
       "list": [
         {
