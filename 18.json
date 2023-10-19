@@ -642,19 +642,19 @@
           "name": "稳定電視版-4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         }]},
       { "name": "蜂蜜大屌电视版更新",
       "list": [
@@ -662,31 +662,31 @@
           "name": "稳定電視版-4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定電視版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         }]},
         { "name": "蜂蜜大屌开发电视版更新",
       "list": [
@@ -694,25 +694,25 @@
           "name": "开发電視版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-Java-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发電視版-python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发電視版-java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发電視版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         }]},
       { "name": "蜂蜜大屌手机稳定版更新",
       "list": [
@@ -720,25 +720,25 @@
           "name": "稳定手機版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定手機版-python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定手機版-java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "稳定手機版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         }]},
         { "name": "蜂蜜大屌开发手机版更新",
       "list": [
@@ -746,25 +746,25 @@
           "name": "开发手機版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发手機版-python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发手機版-java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         },
         {
           "name": "开发手機版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "随缘更新"
+           "version": "官方更新拾分钟后自动刷新"
         }]},
      { "name": "武哥自用推荐",
      "list": [
