@@ -630,12 +630,31 @@
         },
 {
       "key": "應用商店",
-      "name": "㊙️應㊙️用㊙️商㊙️店㊙️",
+      "name": "🌏🐝蜂❤️密💛超💚级💙市💜场🈹",
       "type": 3,"style":{"type":"rect","ratio":1.75},
       "api": "csp_Market",
       "searchable": 1,
       "changeable": 1,
       "ext": [
+      { "name": "推薦更新",
+      "list": [
+        {
+          "name": "稳定電視版-4.1-4.4",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "稳定電視版-java-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        },
+        {
+          "name": "稳定電視版-python-v7",
+          "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
+        }]},
+      { "name": "蜂蜜大屌电视版更新",
+      "list": [
         {
           "name": "稳定電視版-4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
@@ -680,7 +699,9 @@
           "name": "开发電視版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
-        },
+        }]},
+      { "name": "蜂蜜大屌手机版更新",
+      "list": [
         {
           "name": "稳定手機版-java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
@@ -720,7 +741,9 @@
           "name": "开发手機版-python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png"
-        },
+        }]},
+     { "name": "武哥自用推荐",
+     "list": [
         {
           "name": "catbox猫爪",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
@@ -755,7 +778,7 @@
           "name": "UP影視手机版",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/UP影視.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/UP影視.png"
-        }
+        }]}
       ]
     },
         {
