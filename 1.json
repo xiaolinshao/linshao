@@ -846,8 +846,13 @@
           "version": "随缘更新"
         },
         {
-          "name": "TVBox_黑盒版",
+          "name": "TVBox_黑盒v7版",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
+          "version": "随缘更新"
+        {
+          "name": "TVBox_黑盒v8版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒v8.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
           "version": "随缘更新"
         },
