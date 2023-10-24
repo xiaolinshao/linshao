@@ -6,8 +6,6 @@ log-level: debue
 ipv6: true
 geodata-mode: false
 tcp-concurrent: true
-enhanced-mode: redir-host
-external-controller: 127.0.0.1:9090
 dns:
   enable: true
   ipv6: false
