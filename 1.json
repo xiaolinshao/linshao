@@ -831,7 +831,7 @@
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
            "version": "官方更新拾分钟后自动刷新"
         }]},
-     { "name": "武哥自用推荐",
+     { "name": "武哥自用TV版推荐",
      "list": [
         {
           "name": "catbox猫爪",
@@ -876,10 +876,60 @@
           "version": "随缘更新"
         },
         {
+          "name": "🎶音乐歌词适配",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.png",
+          "version": "TV音乐🎶"
+        }]},
+        { "name": "平板for手机系列",
+     "list": [
+        {
+          "name": "catbox猫爪",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_俊版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/俊版.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/俊版.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_黑盒v7版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_黑盒v8版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒v8.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "派大星直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "环球直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.png",
+          "version": "随缘更新"
+        },
+        {
           "name": "UP影視手机版",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/UP影視.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/UP影視.png",
           "version": "账号密码都是1008611"
+        },
+        {
+          "name": "🎶音乐歌词适配",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.png",
+          "version": "音乐🎶"
         }]},
         {
     "name": "GitHub服务器SO-v7a",
@@ -989,6 +1039,13 @@
         "version": "file/Download/..."
       },
       {
+        "name": "蜂蜜接口",
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
+        "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
+        "version": "file/Download/...",
+"点击下载并复制命令":"file://Download/adult.json/"
+      },
+      {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
@@ -1000,6 +1057,18 @@
 {"key":"push_agent","name":"❤推送|lf_push","type":3,"api":"csp_Push"}],
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 "rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com"]},
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+{
+      "name": "爱酷",
+      "hosts": [
+        "cdn.json.icu"
+      ],
+      "regex": [
+        "#EXTINF:1.000000,[\\s\\S]*?#EXT-X-ENDLIST"
+      ]
+    },
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    {"name":"蚂蚁","hosts":["v.cdnlz1.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"name":"農民","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
