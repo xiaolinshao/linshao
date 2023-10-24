@@ -1,5 +1,4 @@
 socks-port: 7777
-mixed-port: 7890
 allow-lan: true
 mode: rule
 log-level: debue
