@@ -10,7 +10,7 @@ dns:
   ipv6: false
   default-nameserver: [223.5.5.5, 223.6.6.6, 119.29.29.29, 8.8.4.4, 8.8.8.8, 9.9.9.9, 149.112.112.112, 114.114.114.114, 114.114.115.115, 208.67.222.222, 208.67.220.220, 94.140.14.140, 94.140.14.141]
   enhanced-mode: redir-host
-  fake-ip-range: 198.18.0.1/16
+  fake-ip-range: 172.0.0.1/16
   nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query', 'https://dns.www.opendns.com/dns-query', 'https://dns.114dns.com/dns-query', 'https://doh.360.cn/dns-query', 'https://dns.google/dns-query', 'https://cloudflare-dns.com/dns-query', 'https://dns.adguard.com/dns-query', 'https://resolver2.dns.watch/dns-query']
   fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853', 'tls://8.8.8.8:853', 'tls://1.1.1.1:853', 'tls://1.0.0.1:853']
   fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
