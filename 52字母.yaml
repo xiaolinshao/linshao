@@ -10,7 +10,7 @@ log-level: debue
 enhanced-mode: redir-host
 external-controller: 127.0.0.1:9090
 clash-for-android:
-    append-system-dns: yrue
+    append-system-dns: true
 dns:
   enable: true
   ipv6: false
