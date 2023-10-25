@@ -37,58 +37,474 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {name: "☁️ CFWarp-A",type: wireguard,server: 162.159.192.35,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-B",type: wireguard,server: 162.159.195.65,port: 1014,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-C",type: wireguard,server: 162.159.192.36,port: 1014,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-D",type: wireguard,server: 162.159.195.65,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-E",type: wireguard,server: 162.159.192.171,port: 500,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-F",type: wireguard,server: 162.159.195.11,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-G",type: wireguard,server: 162.159.192.171,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-H",type: wireguard,server: 162.159.192.155,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-I",type: wireguard,server: 162.159.192.76,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-J",type: wireguard,server: 162.159.195.146,port: 968,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-K",type: wireguard,server: 162.159.192.109,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-L",type: wireguard,server: 162.159.192.140,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-M",type: wireguard,server: 162.159.192.129,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-N",type: wireguard,server: 162.159.195.171,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-O",type: wireguard,server: 162.159.192.113,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-P",type: wireguard,server: 162.159.195.65,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-Q",type: wireguard,server: 162.159.192.212,port: 1843,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-R",type: wireguard,server: 162.159.192.83,port: 1010,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-S",type: wireguard,server: 162.159.195.111,port: 1843,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-T",type: wireguard,server: 162.159.195.133,port: 968,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-U",type: wireguard,server: 162.159.195.112,port: 955,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-V",type: wireguard,server: 162.159.192.47,port: 3476,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-W",type: wireguard,server: 162.159.192.217,port: 3476,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-X",type: wireguard,server: 162.159.195.111,port: 955,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-Y",type: wireguard,server: 162.159.195.14,port: 968,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-Z",type: wireguard,server: 162.159.192.47,port: 3476,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-A1",type: wireguard,server: 162.159.192.100,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-B1",type: wireguard,server: 162.159.192.100,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-C1",type: wireguard,server: 162.159.192.107,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-D1",type: wireguard,server: 162.159.192.107,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-E1",type: wireguard,server: 162.159.192.102,port: 1070,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-F1",type: wireguard,server: 162.159.192.102,port: 3138,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-G1",type: wireguard,server: 162.159.192.117,port: 1070,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-H1",type: wireguard,server: 162.159.192.117,port: 3138,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-I1",type: wireguard,server: 162.159.192.123,port: 1070,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-J1",type: wireguard,server: 162.159.192.123,port: 3138,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-K1",type: wireguard,server: 162.159.192.15,port: 1070,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-L1",type: wireguard,server: 162.159.192.15,port: 3138,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-M1",type: wireguard,server: 162.159.192.201,port: 1070,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-N1",type: wireguard,server: 162.159.192.201,port: 3138,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-O1",type: wireguard,server: 162.159.192.107,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-P1",type: wireguard,server: 162.159.192.107,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-Q1",type: wireguard,server: 162.159.192.100,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-R1",type: wireguard,server: 162.159.192.100,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-S1",type: wireguard,server: 162.159.192.107,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-T1",type: wireguard,server: 162.159.192.107,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-U1",type: wireguard,server: 162.159.192.100,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-V1",type: wireguard,server: 162.159.192.100,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-W1",type: wireguard,server: 162.159.192.107,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-X1",type: wireguard,server: 162.159.192.107,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
-  - {name: "☁️ CFWarp-Y1",type: wireguard,server: 162.159.192.100,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "☁️ CFWarp-Z1",type: wireguard,server: 162.159.192.100,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - name: ☁️ CFWarp-A
+    type: wireguard
+    server: 162.159.192.35
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-B
+    type: wireguard
+    server: 162.159.195.65
+    port: 1014
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-C
+    type: wireguard
+    server: 162.159.192.36
+    port: 1014
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-D
+    type: wireguard
+    server: 162.159.195.65
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-E
+    type: wireguard
+    server: 162.159.192.171
+    port: 500
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-F
+    type: wireguard
+    server: 162.159.195.11
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-G
+    type: wireguard
+    server: 162.159.192.171
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-H
+    type: wireguard
+    server: 162.159.192.155
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-I
+    type: wireguard
+    server: 162.159.192.76
+    port: 928
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-J
+    type: wireguard
+    server: 162.159.195.146
+    port: 968
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-K
+    type: wireguard
+    server: 162.159.192.109
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-L
+    type: wireguard
+    server: 162.159.192.140
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-M
+    type: wireguard
+    server: 162.159.192.129
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-N
+    type: wireguard
+    server: 162.159.195.171
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-O
+    type: wireguard
+    server: 162.159.192.113
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-P
+    type: wireguard
+    server: 162.159.195.65
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Q
+    type: wireguard
+    server: 162.159.192.212
+    port: 1843
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-R
+    type: wireguard
+    server: 162.159.192.83
+    port: 1010
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-S
+    type: wireguard
+    server: 162.159.195.111
+    port: 1843
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-T
+    type: wireguard
+    server: 162.159.195.133
+    port: 968
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-U
+    type: wireguard
+    server: 162.159.195.112
+    port: 955
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-V
+    type: wireguard
+    server: 162.159.192.47
+    port: 3476
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-W
+    type: wireguard
+    server: 162.159.192.217
+    port: 3476
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-X
+    type: wireguard
+    server: 162.159.195.111
+    port: 955
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Y
+    type: wireguard
+    server: 162.159.195.14
+    port: 968
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Z
+    type: wireguard
+    server: 162.159.192.47
+    port: 3476
+    ip: 192.168.0.2
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-A1
+    type: wireguard
+    server: 162.159.192.100
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-B1
+    type: wireguard
+    server: 162.159.192.100
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-C1
+    type: wireguard
+    server: 162.159.192.107
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-D1
+    type: wireguard
+    server: 162.159.192.107
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-E1
+    type: wireguard
+    server: 162.159.192.102
+    port: 1070
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-F1
+    type: wireguard
+    server: 162.159.192.102
+    port: 3138
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-G1
+    type: wireguard
+    server: 162.159.192.117
+    port: 1070
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-H1
+    type: wireguard
+    server: 162.159.192.117
+    port: 3138
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-I1
+    type: wireguard
+    server: 162.159.192.123
+    port: 1070
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-J1
+    type: wireguard
+    server: 162.159.192.123
+    port: 3138
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-K1
+    type: wireguard
+    server: 162.159.192.15
+    port: 1070
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-L1
+    type: wireguard
+    server: 162.159.192.15
+    port: 3138
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-M1
+    type: wireguard
+    server: 162.159.192.201
+    port: 1070
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-N1
+    type: wireguard
+    server: 162.159.192.201
+    port: 3138
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-O1
+    type: wireguard
+    server: 162.159.192.107
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-P1
+    type: wireguard
+    server: 162.159.192.107
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Q1
+    type: wireguard
+    server: 162.159.192.100
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-R1
+    type: wireguard
+    server: 162.159.192.100
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-S1
+    type: wireguard
+    server: 162.159.192.107
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-T1
+    type: wireguard
+    server: 162.159.192.107
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-U1
+    type: wireguard
+    server: 162.159.192.100
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-V1
+    type: wireguard
+    server: 162.159.192.100
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-W1
+    type: wireguard
+    server: 162.159.192.107
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-X1
+    type: wireguard
+    server: 162.159.192.107
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Y1
+    type: wireguard
+    server: 162.159.192.100
+    port: 4198
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
+  - name: ☁️ CFWarp-Z1
+    type: wireguard
+    server: 162.159.192.100
+    port: 7281
+    ip: 172.16.0.2
+    private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: false
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
