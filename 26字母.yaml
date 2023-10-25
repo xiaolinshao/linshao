@@ -27,9 +27,7 @@ dns:
     - 94.140.14.140
     - 94.140.14.141
   enhanced-mode: redir-host
-  fake-ip-range:
-    - 172.16.0.1/32
-    - 198.18.0.1/16
+  fake-ip-range: 172.16.0.1/32, 198.18.0.1/16
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
