@@ -59,7 +59,9 @@ dns:
     - https://resolver2.dns.watch/dns-query
   fallback-filter:
     geoip: true
-    ipcidr: 240.0.0.0/4, 0.0.0.0/32
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 proxies:
   - {name: "☁️ CFWarp-A",type: wireguard,server: 162.159.192.35,port: 928,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
   - {name: "☁️ CFWarp-B",type: wireguard,server: 162.159.195.65,port: 1014,ip: 192.168.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=,remote-dns-resolve: false,udp: true}
