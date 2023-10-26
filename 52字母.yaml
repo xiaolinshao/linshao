@@ -531,18 +531,7 @@ proxies:
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     remote-dns-resolve: false
     udp: true
-  - name: A2
-    type: wireguard
-    server: 188.114.98.93
-    port: 1018
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8147:4c61:5525:9014:dd3
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    private-key: MKTg1UXzTGCB7IrRzfATwjC4MGFFE2WHibpHrBUzDUs=
-    reserved: [153, 228, 25]
-    eepalive: 45
-    mtu: 1280
-    udp: true
+  - { name: A, type: wireguard, server: 188.114.98.93, port: 1018, ip: 172.16.0.2, ipv6: 2606:4700:110:8147:4c61:5525:9014:dd3, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MKTg1UXzTGCB7IrRzfATwjC4MGFFE2WHibpHrBUzDUs=, reserved: [153, 228, 25], keepalive: 45, mtu: 1280, udp: true }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
