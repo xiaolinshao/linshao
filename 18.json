@@ -927,13 +927,36 @@
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1019.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
-        "version": "file/Download/..."
+        "version": "随缘更新",
+        "copy":"file://Download/JS/js.json"
+      },
+      {
+        "name": "蜂蜜接口",
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
+        "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
+        "version": "蜂蜜大屌接口.",
+        "copy":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"
+      },
+      {
+        "name": "武哥正常接口",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+        "version": "随缘更新",
+        "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
+      },
+      {
+        "name": "武哥18+接口",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+        "version": "随缘更新",
+        "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json"
       },
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
-        "version": "file/Download/..."
+        "version":"随缘更新",
+        "copy": "file/Download/XYQBox/XYQBox.json"
       }]}
       ]
     },
@@ -970,6 +993,7 @@
         "www.youtube.com"
       ]
     },
+    {"name": "廣告","hosts": ["."],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?muguacdn.*?\\.ts\\s+"]},
     {
          "name":"農民",
          "hosts":[
