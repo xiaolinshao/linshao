@@ -588,7 +588,6 @@ proxy-groups:
       - ☁️ CFWarp-X1
       - ☁️ CFWarp-Y1
       - ☁️ CFWarp-Z1
-      - A2
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
