@@ -1036,20 +1036,36 @@
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1019.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
-        "version": "file/Download/..."
+        "version": "随缘更新",
+        "copy":"file://Download/JS/js.json"
       },
       {
         "name": "蜂蜜接口",
         "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
-        "version": "file/Download/...",
-"点击下载并复制命令":"file://Download/adult.json/"
+        "version": "蜂蜜大屌接口.",
+        "copy":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"
+      },
+      {
+        "name": "武哥正常接口",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+        "version": "随缘更新",
+        "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
+      },
+      {
+        "name": "武哥18+接口",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+        "version": "随缘更新",
+        "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json"
       },
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
-        "version": "file/Download/..."
+        "version":"随缘更新",
+        "copy": "file/Download/XYQBox/XYQBox.json"
       }]}
       ]
     },
@@ -1057,6 +1073,8 @@
 {"key":"push_agent","name":"❤推送|lf_push","type":3,"api":"csp_Push"}],
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 "rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com"]},
+/*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+{"name": "廣告","hosts": ["."],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?muguacdn.*?\\.ts\\s+"]},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {
       "name": "爱酷",
