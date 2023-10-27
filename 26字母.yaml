@@ -5,8 +5,25 @@ mode: Rule
 ipv6: true
 geodata-mode: true
 tcp-concurrent: true
+external-controller: 9090
+execute-config-as-is: false
 log-level: info
-external-controller: :9090
+resolve-destination: true
+ipv6-mode: ipv4_only
+remote-dns-address: tcp://8.8.8.8
+remote-dns-domain-strategy: 
+direct-dns-address: 8.8.8.8
+direct-dns-domain-strategy: 
+mixed-port: 2334
+local-dns-port: 6450
+tun-implementation: mixed
+mtu: 9000
+connection-test-url: https://www.gstatic.com/generate_204
+url-test-interval: 1m
+enable-clash-api: true
+clash-api-port: 6756
+enable-tun: true
+set-system-proxy: false
 dns:
   enable: true
   prefer-h3: true
