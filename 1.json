@@ -84,7 +84,7 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"素白白","name":"🐱猫素白白","searchable":1,"quickSearch":1,"filterable":1,"type":3,"style":{"type":"rect","ratio":1.485},"api":"https://qu.ax/XUlO.js"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-{"key":"csp_JianPian","name":"🌏🐝香❤️雅💛情💚线💙路🈹🔨荐片香雅情","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./1012.jar;md5;0dd7287053d3200e3fcf51d4ccfa8eba","ext":"https://ownjpykxttjzuhy.jiesiwa.com"},
+{"key":"csp_JianPian","name":"🌏🐝香❤️雅💛情💚线💙路🈹🔨荐片香雅情","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_JianPian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./1012.jar;md5;0dd7287053d3200e3fcf51d4ccfa8eba","ext":"https://ownjpykxttjzuhy.jiesiwa.com"},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"csp_短剧网香","name":"🇨🇳»短剧网[影视]香雅情_HK","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_XYQHiker","jar":"./1012.jar;md5;0dd7287053d3200e3fcf51d4ccfa8eba","searchable":1,"quickSearch":1,"filterable":1,"ext":{"规则名":"短剧网","规则作者":"醉卧东风","请求头参数":"User-Agent$MOBILE_UA#Referer$WebView","网页编码格式":"UTF-8","图片是否需要代理":"0","是否开启获取首页数据":"1","首页推荐链接":"https://www.duanju5.com","首页列表数组规则":"body&&.module-items","首页片单列表数组规则":".module-item","首页片单是否Jsoup写法":"1","分类起始页码":"1","分类链接":"https://www.duanju5.com/vodtype/{cateId}-{catePg}.html","分类名称":"逆袭&甜宠&虐恋&穿越&重生","分类名称替换词":"nixi&tianchong&nuelian&chuanyue&chuanyue&chongsheng","分类截取模式":"1","分类列表数组规则":"body&&.module-item","分类片单是否Jsoup写法":"1","分类片单标题":"a&&title","分类片单链接":"a&&href","分类片单图片":".lazyloaded.lazyload&&data-srcdata-original","分类片单副标题":".module-item-note||.module-item-text&&Text","分类片单链接加前缀":"https://www.duanju5.com","分类片单链接加后缀":"","搜索请求头参数":"User-Agent$MOBILE_UA","搜索链接":"https://www.duanju5.com/vodsearch/{wd}----------{SearchPg}---.html","POST请求数据":"","搜索截取模式":"1","搜索列表数组规则":"body&&.module-search-item","搜索片单是否Jsoup写法":"1","搜索片单图片":".lazyload&&data-src","搜索片单标题":"h3&&Text","搜索片单链接":"a&&href","搜索片单副标题":".video-serial&&Text","搜索片单链接加前缀":"https://www.duanju5.com","搜索片单链接加后缀":"","链接是否直接播放":"0","直接播放链接加前缀":"","直接播放链接加后缀":"#isVideo=true#","直接播放直链视频请求头":"","详情是否Jsoup写法":"0","类型详情":"","年代详情":"","地区详情":"","演员详情":"主演：</span>&&</div>","简介详情":"introduction\">&&</p>","线路列表数组规则":".module-player-tab&&.module-tab-item","线路标题":"Text","播放列表数组规则":"body&&.module-player-list:has(.scroll-content)","选集列表数组规则":".scroll-content&&a","选集标题链接是否Jsoup写法":"1","选集标题":"a&&Text","选集链接":"a&&href","是否反转选集序列":"0","选集链接加前缀":"https://www.duanju5.com","选集链接加后缀":"","分析MacPlayer":"0","是否开启手动嗅探":"1","手动嗅探视频链接关键词":".mp4#.m3u8#.flv#video/tos","手动嗅探视频链接过滤词":".html#?url=http"}},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1033,6 +1033,13 @@
     "name": "本地包配置",
     "list": [
       {
+        "name": "蜂蜜接口",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
+        "version": "蜂蜜接口.",
+        "copy":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"
+      },
+      {
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1019.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
@@ -1040,10 +1047,10 @@
         "copy":"clan://Download/JS/js.json"
       },
       {
-        "name": "蜂蜜接口",
+        "name": "蜂蜜18+接口",
         "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
         "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-        "version": "蜂蜜大屌接口.",
+        "version": "蜂蜜大屌18+接口.",
         "copy":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"
       },
       {
@@ -1079,7 +1086,7 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"key":"push_agent","name":"❤推送|lf_push","type":3,"api":"csp_Push"}],
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-"rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com"]},
+"rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com","raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*",".*wogg.xyz"]},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 {"name": "廣告","hosts": ["."],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?muguacdn.*?\\.ts\\s+"]},
 /*------------------------------------------------------------------------------------------------------------------------------------------分割线-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
