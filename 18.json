@@ -924,6 +924,13 @@
     "name": "本地包配置",
     "list": [
       {
+        "name": "蜂蜜接口",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
+        "version": "蜂蜜接口.",
+        "copy":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"
+      },
+      {
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1019.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
@@ -931,10 +938,10 @@
         "copy":"clan://Download/JS/js.json"
       },
       {
-        "name": "蜂蜜接口",
+        "name": "蜂蜜18+接口",
         "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
         "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-        "version": "蜂蜜大屌接口.",
+        "version": "蜂蜜大屌18+接口.",
         "copy":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"
       },
       {
