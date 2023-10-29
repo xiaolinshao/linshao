@@ -115,7 +115,7 @@ proxies:
   - {name: "☁️ CFWarp-X1",type: wireguard,server: 162.159.192.107,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true} 
   - {name: "☁️ CFWarp-Y1",type: wireguard,server: 162.159.192.100,port: 4198,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
   - {name: "☁️ CFWarp-Z1",type: wireguard,server: 162.159.192.100,port: 7281,ip: 172.16.0.2,private-key: MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "warp1",type: wireguard,server: 162.159.192.178,port: 945,ip: 172.16.0.2,private-key: UAUwRD2SPBoCSTaFJSFwe9SEOA7TiSqd0+9S5zJtHkw=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,udp: true,reserved: [203,146,161],keepalive: 45,mtu: 1280}
+  - {name: "warp1",type: wireguard,server: 162.159.192.178,port: 945,ip: 172.16.0.2,private-key: UAUwRD2SPBoCSTaFJSFwe9SEOA7TiSqd0+9S5zJtHkw=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
