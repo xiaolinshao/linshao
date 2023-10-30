@@ -711,6 +711,30 @@
       { "name": "推薦更新",
       "list": [
         {
+          "name": "官方精简稳定手機版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定手機版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
           "name": "稳定電視版-4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
@@ -841,6 +865,18 @@
      { "name": "武哥自用TV版推荐",
      "list": [
         {
+          "name": "官方精简稳定電視版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
           "name": "catbox猫爪",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.png",
@@ -888,8 +924,20 @@
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.png",
           "version": "TV音乐🎶"
         }]},
-        { "name": "平板for手机系列",
+        { "name": "武哥自用平板for手机系列",
      "list": [
+        {
+          "name": "官方精简稳定手機版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定手機版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
         {
           "name": "catbox猫爪",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
@@ -1074,13 +1122,6 @@
         "version": "随缘更新",
         "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json"
       },
-      {
-        "name": "武哥本地包",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥本地包.zip",
-        "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
-        "version": "随缘更新",
-        "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
-      }, 
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
