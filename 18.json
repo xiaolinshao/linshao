@@ -640,6 +640,30 @@
       { "name": "推薦更新",
       "list": [
         {
+          "name": "官方精简稳定手機版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定手機版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
           "name": "稳定電視版-4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
@@ -767,8 +791,20 @@
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
            "version": "官方更新拾分钟后自动刷新"
         }]},
-     { "name": "武哥自用推荐",
+     { "name": "武哥自用TV版推荐",
      "list": [
+        {
+          "name": "官方精简稳定電視版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定電視版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
         {
           "name": "catbox猫爪",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
@@ -809,6 +845,62 @@
           "name": "红鞋子👟",
           "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/RedShoes_1.64.apk",
           "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/RedShoes_1.64.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "🎶音乐歌词适配",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/歌词适配.png",
+          "version": "TV音乐🎶"
+        }]},
+        { "name": "武哥自用平板for手机系列",
+     "list": [
+        {
+          "name": "官方精简稳定手機版-java-v7",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "32位纯EXO播放器"
+        },
+        {
+          "name": "官方精简稳定手機版-java-v8",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
+           "version": "64位纯EXO播放器"
+        },
+        {
+          "name": "catbox猫爪",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/猫爪.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_俊版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/俊版.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/俊版.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_黑盒v7版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "TVBox_黑盒v8版",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒v8.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/TVBox_黑盒.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "派大星直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/派大星直播_1.0.3.png",
+          "version": "随缘更新"
+        },
+        {
+          "name": "环球直播",
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.apk",
+          "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/apk/main/環球TV_DreamTV20220516.png",
           "version": "随缘更新"
         },
         {
@@ -946,14 +1038,14 @@
         "copy":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"
       },
       {
-        "name": "武哥正常接口",
+        "name": "武哥正常在线接口",
         "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json",
         "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
         "version": "随缘更新",
         "copy":"https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
       },
       {
-        "name": "武哥18+接口",
+        "name": "武哥18+在线接口",
         "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json",
         "icon": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
         "version": "随缘更新",
