@@ -1,0 +1,111 @@
+
+
+{
+  "dns": {
+    "servers": [
+      {
+        "tag":"google",
+        "address":"tls://1.1.1.1",
+        "detour":"wireguard-out"
+      },
+      {
+        "tag":"local",
+        "address":"114.114.114.114",
+        "detour":"direct"
+      }
+    ]
+			},	
+"inbounds":[
+		    {
+      "type": "mixed",
+      "listen":"::",
+      "listen_port":1080
+			},
+		{
+      "type": "vmess",
+      "tag": "vmess-in",
+      "listen": "::",
+      "listen_port": 2001,
+      "users": [
+        {
+          "name": "sekai",
+          "uuid": "11112222-3333-4444-aaaa-bbbbccccdddd",
+          "alterId": 0
+        }
+				],
+      "tls": {},
+      "transport": {
+        "type": "ws",
+        "path": "/vm",
+        "headers": {},
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+					}
+		},
+		
+				{
+      "type": "vless",
+      "tag": "vless-in",
+      "listen": "::",
+      "listen_port": 2002,
+      "users": [
+        {
+          "name": "sek",
+          "uuid": "11112222-3333-4444-aaaa-bbbbccccdddd"  
+        }
+				],
+      "tls": {},
+      "transport": {
+        "type": "ws",
+        "path": "/vm",
+        "headers": {},
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+					}
+		},
+
+		
+	{
+		"listen":"::",
+		"listen_port":2000,
+		"type":"socks"
+	}
+			],
+"outbounds":[
+    {
+      "type":"wireguard",
+      "tag":"wireguard-out",
+      "server":"162.159.192.100",
+      "server_port":4198,
+      "local_address":[
+        "172.16.0.2/32",
+        "2606:4700:110:8d96:10c5:f63:c86a:d18/128"
+      ],
+      "private_key":"YNddtyMhBktWpMua1NCCMYL2vyMzL1+7D2J5PRCtnnQ=",
+      "peer_public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved":[
+        64,
+        150,
+        182
+      ],
+      "mtu":1280
+    },
+    {
+      "type":"direct",
+      "tag":"direct",
+      "domain_strategy":"prefer_ipv4"
+    },
+    {
+      "type":"direct",
+      "tag":"warp-IPv4-out",
+      "detour":"wireguard-out",
+      "domain_strategy":"ipv4_only"
+    },
+    {
+      "type":"direct",
+      "tag":"warp-IPv6-out",
+      "detour":"wireguard-out",
+      "domain_strategy":"ipv6_only"
+    }
+  ]
+}
