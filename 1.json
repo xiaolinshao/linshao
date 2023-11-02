@@ -3,18 +3,6 @@
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"jar":"./有来急救百科.jar;md5;510fa1663f7067bd4d40de06097202bf"},
 /*------------------------分割线------------------------*/
 {
-      "key": "csp_WoGG",
-      "name": "❤🤡玩偶哥哥┃4K", 
-      "type": 3, 
-      "style":{ "type":"rect", "ratio":0 },
-      "api": "csp_WoGG", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 1, 
-      "ext": "f58bea917ce946c18479c25e453544b3",
-      "jar":"https://qu.ax/rski.js"
-    },
-{
       "key": "賤賤",
       "name": "賤賤",
       "type": 3,
@@ -1243,7 +1231,9 @@
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
 /*------------------------分割线------------------------*/
 "lives":[
-{"name":"半路捡来的","boot":true,"type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"YouTube","boot":true,"type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+/*------------------------分割线------------------------*/
+{"name":"半路捡来的","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
 {"name":"小小TV直播","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
@@ -1280,8 +1270,6 @@
 {"name":"四k数毛TV","type":0,"header":{"user-agent":"Mozilla/5.0(SymbianOS/9.4;Series60/5.0NokiaN97-1/20.0.019;Profile/MIDP-2.1Configuration/CLDC-1.1)AppleWebKit/525(KHTML,likeGecko)BrowserNG/7.1.18124","referer":"https://github.com/"},"url":"https://dpaste.com/AY5T5QPUX.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
 {"name":"垃圾堆成山","type":0,"url":"https://qu.ax/ktVO.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"YouTube","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
 {"name":"武哥成人点播","type":0,"url":"https://qu.ax/CgvU.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
