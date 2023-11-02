@@ -1,0 +1,1213 @@
+{
+    "log": {
+      "level": "info",
+      "timestamp": true
+    },
+    "dns": {
+      "servers": [
+        {
+          "tag": "dns_proxy",
+          "address": "https://8.8.8.8/dns-query",
+          "address_resolver": "dns_direct",
+          "strategy": "ipv4_only",
+          "detour": "proxy"
+        },
+        {
+          "tag": "dns_direct",
+          "address": "223.5.5.5",
+          "strategy": "ipv4_only",
+          "detour": "direct"
+        },
+        {
+          "tag": "dns_block",
+          "address": "rcode://success"
+        }
+      ],
+      "rules": [
+        {
+          "geosite": [
+            "category-ads-all"
+          ],
+          "server": "dns_block",
+          "disable_cache": true
+        },
+        {
+          "geosite": [
+            "geolocation-!cn"
+          ],
+          "server": "dns_proxy"
+        },
+        {
+          "geosite": [
+            "cn",
+            "private"
+          ],
+          "server": "dns_direct"
+        },
+        {
+          "outbound": [
+            "any"
+          ],
+          "server": "dns_direct"
+        }
+      ]
+    },
+    "inbounds": [
+      {
+        "type": "tun",
+        "tag": "tun-in",
+        "inet4_address": "172.19.0.1/30",
+        "auto_route": true,
+        "strict_route": false,
+        "stack": "mixed",
+        "sniff": true,
+        "sniff_override_destination": false
+      }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "default": "urltest",
+            "outbounds": [
+                "urltest",
+                "☁️ CFWarp-A",
+                "☁️ CFWarp-B",
+                "☁️ CFWarp-C",
+                "☁️ CFWarp-D",
+                "☁️ CFWarp-E",
+                "☁️ CFWarp-F",
+                "☁️ CFWarp-G",
+                "☁️ CFWarp-H",
+                "☁️ CFWarp-I",
+                "☁️ CFWarp-J",
+                "☁️ CFWarp-K",
+                "☁️ CFWarp-L",
+                "☁️ CFWarp-M",
+                "☁️ CFWarp-N",
+                "☁️ CFWarp-O",
+                "☁️ CFWarp-P",
+                "☁️ CFWarp-Q",
+                "☁️ CFWarp-R",
+                "☁️ CFWarp-S",
+                "☁️ CFWarp-T",
+                "☁️ CFWarp-U",
+                "☁️ CFWarp-V",
+                "☁️ CFWarp-W",
+                "☁️ CFWarp-X",
+                "☁️ CFWarp-Y",
+                "☁️ CFWarp-Z",
+                "☁️ CFWarp-A1",
+                "☁️ CFWarp-B1",
+                "☁️ CFWarp-C1",
+                "☁️ CFWarp-D1",
+                "☁️ CFWarp-E1",
+                "☁️ CFWarp-F1",
+                "☁️ CFWarp-G1",
+                "☁️ CFWarp-H1",
+                "☁️ CFWarp-I1",
+                "☁️ CFWarp-J1",
+                "☁️ CFWarp-K1",
+                "☁️ CFWarp-L1",
+                "☁️ CFWarp-M1",
+                "☁️ CFWarp-N1",
+                "☁️ CFWarp-O1",
+                "☁️ CFWarp-P1",
+                "☁️ CFWarp-Q1",
+                "☁️ CFWarp-R1",
+                "☁️ CFWarp-S1",
+                "☁️ CFWarp-T1",
+                "☁️ CFWarp-U1",
+                "☁️ CFWarp-V1",
+                "☁️ CFWarp-W1",
+                "☁️ CFWarp-X1",
+                "☁️ CFWarp-Y1",
+                "☁️ CFWarp-Z1",
+                "☁️ CFWarp-A2",
+                "☁️ CFWarp-B2",
+                "☁️ CFWarp-C2",
+                "☁️ CFWarp-D2",
+                "☁️ CFWarp-E2",
+                "☁️ CFWarp-F2",
+                "☁️ CFWarp-G2",
+                "☁️ CFWarp-H2",
+                "☁️ CFWarp-I2",
+                "☁️ CFWarp-J2",
+                "☁️ CFWarp-K2",
+                "☁️ CFWarp-L2",
+                "☁️ CFWarp-M2",
+                "☁️ CFWarp-N2",
+                "☁️ CFWarp-O2",
+                "☁️ CFWarp-P2",
+                "☁️ CFWarp-Q2",
+                "☁️ CFWarp-R2",
+                "☁️ CFWarp-S2",
+                "☁️ CFWarp-T2",
+                "☁️ CFWarp-U2",
+                "☁️ CFWarp-V2",
+                "☁️ CFWarp-W2",
+                "☁️ CFWarp-X2",
+                "☁️ CFWarp-Y2",
+                "☁️ CFWarp-Z2"
+            ]
+        },
+        {
+            "server": "162.159.192.35",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-A",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.65",
+            "server_port": 1014,
+            "tag": "☁️ CFWarp-B",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.36",
+            "server_port": 1014,
+            "tag": "☁️ CFWarp-C",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.65",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-D",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.171",
+            "server_port": 500,
+            "tag": "☁️ CFWarp-E",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.11",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-F",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.171",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-G",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.155",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-H",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.76",
+            "server_port": 928,
+            "tag": "☁️ CFWarp-I",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.146",
+            "server_port": 968,
+            "tag": "☁️ CFWarp-J",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.109",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-K",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.140",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-L",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.129",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-M",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.171",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-N",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.113",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-O",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.65",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-P",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.212",
+            "server_port": 1843,
+            "tag": "☁️ CFWarp-Q",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.83",
+            "server_port": 1010,
+            "tag": "☁️ CFWarp-R",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.111",
+            "server_port": 1843,
+            "tag": "☁️ CFWarp-S",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.133",
+            "server_port": 968,
+            "tag": "☁️ CFWarp-T",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.112",
+            "server_port": 955,
+            "tag": "☁️ CFWarp-U",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.47",
+            "server_port": 3476,
+            "tag": "☁️ CFWarp-V",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.217",
+            "server_port": 3476,
+            "tag": "☁️ CFWarp-W",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.111",
+            "server_port": 955,
+            "tag": "☁️ CFWarp-X",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.195.14",
+            "server_port": 968,
+            "tag": "☁️ CFWarp-Y",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.47",
+            "server_port": 3476,
+            "tag": "☁️ CFWarp-Z",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-A1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-B1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-C1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-D1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.102",
+            "server_port": 1070,
+            "tag": "☁️ CFWarp-E1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.102",
+            "server_port": 3138,
+            "tag": "☁️ CFWarp-F1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.117",
+            "server_port": 1070,
+            "tag": "☁️ CFWarp-G1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.117",
+            "server_port": 3138,
+            "tag": "☁️ CFWarp-H1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.123",
+            "server_port": 1070,
+            "tag": "☁️ CFWarp-I1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.123",
+            "server_port": 3138,
+            "tag": "☁️ CFWarp-J1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.15",
+            "server_port": 1070,
+            "tag": "☁️ CFWarp-K1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.15",
+            "server_port": 3138,
+            "tag": "☁️ CFWarp-L1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.201",
+            "server_port": 1070,
+            "tag": "☁️ CFWarp-M1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.201",
+            "server_port": 3138,
+            "tag": "☁️ CFWarp-N1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-O1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-P1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-Q1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-R1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-S1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-T1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-U1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-V1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-W1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.107",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-X1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 4198,
+            "tag": "☁️ CFWarp-Y1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.100",
+            "server_port": 7281,
+            "tag": "☁️ CFWarp-Z1",
+            "type": "wireguard",
+            "local_address": [
+                "172.16.0.2/32"
+            ],
+            "private_key": "MIolwT4lXt8Z7S4EsbO2B/MJm0IefNVxS+lk1RXv3Fg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.142",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-A2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.189",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-B2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "262.259.292.207",
+            "server_port": 4298,
+            "tag": "☁️ CFWarp-C2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.152",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-D2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.44",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-E2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.199",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-F2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.212",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-G2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.212",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-H2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.44",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-I2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.199",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-J2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.218",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-K2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.223",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-L2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.223",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-M2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.142",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-N2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.125",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-O2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.5",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-P2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.179",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-Q2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.228",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-R2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "162.159.192.181",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-S2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.181",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-T2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.228",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-U2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.6",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-V2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.99",
+            "server_port": 8742,
+            "tag": "☁️ CFWarp-W2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.26",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-X2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.175",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-Y2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "server": "188.114.97.250",
+            "server_port": 908,
+            "tag": "☁️ CFWarp-Z2",
+            "type": "wireguard",
+            "local_address": [
+                "192.168.0.2/32"
+            ],
+            "private_key": "mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "urltest",
+            "type": "urltest",
+            "outbounds": [
+                "☁️ CFWarp-A",
+                "☁️ CFWarp-B",
+                "☁️ CFWarp-C",
+                "☁️ CFWarp-D",
+                "☁️ CFWarp-E",
+                "☁️ CFWarp-F",
+                "☁️ CFWarp-G",
+                "☁️ CFWarp-H",
+                "☁️ CFWarp-I",
+                "☁️ CFWarp-J",
+                "☁️ CFWarp-K",
+                "☁️ CFWarp-L",
+                "☁️ CFWarp-M",
+                "☁️ CFWarp-N",
+                "☁️ CFWarp-O",
+                "☁️ CFWarp-P",
+                "☁️ CFWarp-Q",
+                "☁️ CFWarp-R",
+                "☁️ CFWarp-S",
+                "☁️ CFWarp-T",
+                "☁️ CFWarp-U",
+                "☁️ CFWarp-V",
+                "☁️ CFWarp-W",
+                "☁️ CFWarp-X",
+                "☁️ CFWarp-Y",
+                "☁️ CFWarp-Z",
+                "☁️ CFWarp-A1",
+                "☁️ CFWarp-B1",
+                "☁️ CFWarp-C1",
+                "☁️ CFWarp-D1",
+                "☁️ CFWarp-E1",
+                "☁️ CFWarp-F1",
+                "☁️ CFWarp-G1",
+                "☁️ CFWarp-H1",
+                "☁️ CFWarp-I1",
+                "☁️ CFWarp-J1",
+                "☁️ CFWarp-K1",
+                "☁️ CFWarp-L1",
+                "☁️ CFWarp-M1",
+                "☁️ CFWarp-N1",
+                "☁️ CFWarp-O1",
+                "☁️ CFWarp-P1",
+                "☁️ CFWarp-Q1",
+                "☁️ CFWarp-R1",
+                "☁️ CFWarp-S1",
+                "☁️ CFWarp-T1",
+                "☁️ CFWarp-U1",
+                "☁️ CFWarp-V1",
+                "☁️ CFWarp-W1",
+                "☁️ CFWarp-X1",
+                "☁️ CFWarp-Y1",
+                "☁️ CFWarp-Z1",
+                "☁️ CFWarp-A2",
+                "☁️ CFWarp-B2",
+                "☁️ CFWarp-C2",
+                "☁️ CFWarp-D2",
+                "☁️ CFWarp-E2",
+                "☁️ CFWarp-F2",
+                "☁️ CFWarp-G2",
+                "☁️ CFWarp-H2",
+                "☁️ CFWarp-I2",
+                "☁️ CFWarp-J2",
+                "☁️ CFWarp-K2",
+                "☁️ CFWarp-L2",
+                "☁️ CFWarp-M2",
+                "☁️ CFWarp-N2",
+                "☁️ CFWarp-O2",
+                "☁️ CFWarp-P2",
+                "☁️ CFWarp-Q2",
+                "☁️ CFWarp-R2",
+                "☁️ CFWarp-S2",
+                "☁️ CFWarp-T2",
+                "☁️ CFWarp-U2",
+                "☁️ CFWarp-V2",
+                "☁️ CFWarp-W2",
+                "☁️ CFWarp-X2",
+                "☁️ CFWarp-Y2",
+                "☁️ CFWarp-Z2"
+            ]
+      }
+    ],
+    "route": {
+      "geoip": {
+        "download_url": "https://fastly.jsdelivr.net/gh/soffchen/sing-geoip@release/geoip.db",
+        "download_detour": "direct"
+      },
+      "geosite": {
+        "download_url": "https://fastly.jsdelivr.net/gh/soffchen/sing-geosite@release/geosite.db",
+        "download_detour": "direct"
+      },
+      "rules": [
+        {
+          "protocol": "dns",
+          "outbound": "dns-out"
+        },
+        {
+          "network": "udp",
+          "port": [
+            443
+          ],
+          "outbound": "block"
+        },
+        {
+          "geosite": "category-ads-all",
+          "domain_suffix": [
+            "wwads.cn",
+            "gzads.com",
+            "gozendata.com",
+            "gz-data.com",
+            "ads.fmdisk.com",
+            "ads.feemoo.com",
+            "googleads.g.doubleclick.net",
+            "ads.google.com",
+            "afd.l.google.com",
+            "doubleclick.com",
+            "doubleclick.net",
+            "google-analytics.com",
+            "mobileads.google.com"
+          ],
+          "domain_keyword": [
+            "umeng",
+            "googleads"
+          ],
+          "outbound": "block"
+        },
+        {
+          "geoip": [
+            "telegram"
+          ],
+          "geosite": [
+            "geolocation-!cn"
+          ],
+          "domain_suffix": [
+            "github.com",
+            "github.global.ssl.fastly.net",
+            "assets-cdn.github.com",
+            "ampproject.org",
+            "ampproject.net",
+            "g.whatsapp.net",
+            "us-west-2.amazonaws.com",
+            "developer.apple.com",
+            "humblebundle.com",
+            "goo.gl",
+            "gvt1.com",
+            "youtu.be",
+            "ytimg.com",
+            "ggpht.com"
+          ],
+          "domain_keyword": [
+            "appledaily",
+            "github",
+            "instagram",
+            "twitter",
+            "twimg",
+            "telegram",
+            "v2ex",
+            "gmail",
+            "youtube"
+          ],
+          "outbound": "proxy"
+        },
+        {
+          "domain_suffix": [
+            "airdroid.com",
+            "airdroid.cn",
+            "librespeed.cn"
+          ],
+          "domain_keyword": [
+            "moutai",
+            "sina"
+          ],
+          "geosite": [
+            "apple-cn",
+            "category-games@cn",
+            "cn"
+          ],
+          "geoip": [
+            "cn",
+            "private"
+          ],
+          "outbound": "direct"
+        }
+      ],
+      "auto_detect_interface": true
+    }
+  }
