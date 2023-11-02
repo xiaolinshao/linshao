@@ -1,0 +1,202 @@
+{
+    "log": {
+        "level": "info",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "tag": "dns_proxy",
+                "address": "https://cloudflare-dns.com/dns-query",
+                "address_resolver": "dns_resolver",
+                "strategy": "ipv4_only",
+                "detour": "proxy"
+            },
+            {
+                "tag": "dns_direct",
+                "address": "h3://cloudflare-dns.com/dns-query",
+                "address_resolver": "dns_resolver",
+                "strategy": "ipv4_only",
+                "detour": "direct"
+            },
+            {
+                "tag": "dns_block",
+                "address": "rcode://refused"
+            },
+            {
+                "tag": "dns_resolver",
+                "address": "8.8.8.8",
+                "strategy": "ipv4_only",
+                "detour": "direct"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "dns_resolver"
+            },
+            {
+                "geosite": [
+                    "category-ads-all"
+                ],
+                "server": "dns_block",
+                "disable_cache": true
+            },
+            {
+                "geosite": [
+                    "geolocation-!cn"
+                ],
+                "server": "dns_proxy"
+            },
+            {
+                "geosite": [
+                    "cn",
+                    "private"
+                ],
+                "server": "dns_direct"
+            }
+        ]
+    },
+    "route": {
+        "geoip": {
+            "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
+            "download_detour": "proxy"
+        },
+        "geosite": {
+            "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
+            "download_detour": "proxy"
+        },
+        "rules": [
+            {
+                "protocol": "dns",
+                "outbound": "dns-out"
+            },
+            {
+                "protocol": [
+                    "quic"
+                ],
+                "outbound": "block"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "geosite": [
+                            "geolocation-!cn"
+                        ]
+                    },
+                    {
+                        "geoip": [
+                            "cn"
+                        ],
+                        "invert": true
+                    }
+                ],
+                "outbound": "proxy"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "geosite": [
+                            "cn"
+                        ]
+                    },
+                    {
+                        "geoip": [
+                            "cn"
+                        ]
+                    }
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "private"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geoip": [
+                    "cn",
+                    "private"
+                ],
+                "outbound": "direct"
+            }
+        ],
+        "auto_detect_interface": true
+    },
+    "inbounds": [
+        {
+          "listen":"127.0.0.1",
+          "listen_port":2000,
+          "udp_timeout":300,
+          "type":"socks"
+        },
+        {
+          "listen":"127.0.0.1",
+          "listen_port":2000,
+          "udp_timeout":300,
+          "type":"http"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "inet4_address": "172.19.0.1/30",
+            "inet6_address": "fdfe:dcba:9876::1/126",
+            "mtu": 1400,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "gvisor",
+            "sniff": true,
+            "sniff_override_destination": false,
+			"include_package": [
+              /*  这里位代理软件的包名,"org.telegram.messenger.web"				
+          */  ]
+
+        }
+    ],
+    "outbounds": [
+{
+"tag": "proxy",
+"type":"wireguard",
+"server":"162.159.192.100",
+"server_port":4198,
+"local_address":[
+"172.16.0.2/32",
+"2606:4700:110:8178:2af8:3978:b616:da89/128"
+],
+"private_key":"+KGDVhDrDh/rQC6E0bswvVvxRMIdlAj+fBBEmjjPvEY=",
+"peer_public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+"reserved":[
+32,
+186,
+139
+],
+"mtu":1280
+},
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        },
+        {
+            "type": "dns",
+            "tag": "dns-out"
+        }
+    ],
+    "ntp": {
+        "enabled": true,
+        "server": "time.apple.com",
+        "server_port": 123,
+        "interval": "30m",
+        "detour": "direct"
+    }
+}
