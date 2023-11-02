@@ -138,7 +138,7 @@
           "type":"socks"
         },
         {
-          "listen":"127.0.0.1",
+          "listen":"127.0.0.2",
           "listen_port":2000,
           "udp_timeout":300,
           "type":"http"
