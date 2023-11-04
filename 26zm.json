@@ -155,8 +155,14 @@
             "server": "162.159.192.35",
             "server_port": 928,
             "tag": "☁️ CFWarp-A",
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -167,8 +173,11 @@
             "server": "162.159.195.65",
             "server_port": 1014,
             "tag": "☁️ CFWarp-B",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -179,8 +188,11 @@
             "server": "162.159.192.36",
             "server_port": 1014,
             "tag": "☁️ CFWarp-C",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -191,8 +203,11 @@
             "server": "162.159.195.65",
             "server_port": 928,
             "tag": "☁️ CFWarp-D",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -203,8 +218,11 @@
             "server": "162.159.192.171",
             "server_port": 500,
             "tag": "☁️ CFWarp-E",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -215,8 +233,11 @@
             "server": "162.159.195.11",
             "server_port": 928,
             "tag": "☁️ CFWarp-F",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -227,8 +248,11 @@
             "server": "162.159.192.171",
             "server_port": 928,
             "tag": "☁️ CFWarp-G",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -239,8 +263,11 @@
             "server": "162.159.192.155",
             "server_port": 928,
             "tag": "☁️ CFWarp-H",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -251,8 +278,11 @@
             "server": "162.159.192.76",
             "server_port": 928,
             "tag": "☁️ CFWarp-I",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -263,8 +293,11 @@
             "server": "162.159.195.146",
             "server_port": 968,
             "tag": "☁️ CFWarp-J",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -275,8 +308,11 @@
             "server": "162.159.192.109",
             "server_port": 1010,
             "tag": "☁️ CFWarp-K",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -287,8 +323,11 @@
             "server": "162.159.192.140",
             "server_port": 1010,
             "tag": "☁️ CFWarp-L",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -299,8 +338,11 @@
             "server": "162.159.192.129",
             "server_port": 1010,
             "tag": "☁️ CFWarp-M",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -311,8 +353,11 @@
             "server": "162.159.195.171",
             "server_port": 1010,
             "tag": "☁️ CFWarp-N",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -323,8 +368,11 @@
             "server": "162.159.192.113",
             "server_port": 1010,
             "tag": "☁️ CFWarp-O",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -335,8 +383,11 @@
             "server": "162.159.195.65",
             "server_port": 1010,
             "tag": "☁️ CFWarp-P",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -347,8 +398,11 @@
             "server": "162.159.192.212",
             "server_port": 1843,
             "tag": "☁️ CFWarp-Q",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -359,8 +413,11 @@
             "server": "162.159.192.83",
             "server_port": 1010,
             "tag": "☁️ CFWarp-R",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -371,8 +428,11 @@
             "server": "162.159.195.111",
             "server_port": 1843,
             "tag": "☁️ CFWarp-S",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -383,8 +443,11 @@
             "server": "162.159.195.133",
             "server_port": 968,
             "tag": "☁️ CFWarp-T",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -395,8 +458,11 @@
             "server": "162.159.195.112",
             "server_port": 955,
             "tag": "☁️ CFWarp-U",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -407,8 +473,11 @@
             "server": "162.159.192.47",
             "server_port": 3476,
             "tag": "☁️ CFWarp-V",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -419,8 +488,11 @@
             "server": "162.159.192.217",
             "server_port": 3476,
             "tag": "☁️ CFWarp-W",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -431,8 +503,11 @@
             "server": "162.159.195.111",
             "server_port": 955,
             "tag": "☁️ CFWarp-X",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -443,8 +518,11 @@
             "server": "162.159.195.14",
             "server_port": 968,
             "tag": "☁️ CFWarp-Y",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -455,8 +533,11 @@
             "server": "162.159.192.47",
             "server_port": 3476,
             "tag": "☁️ CFWarp-Z",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -467,8 +548,11 @@
             "server": "162.159.192.100",
             "server_port": 4198,
             "tag": "☁️ CFWarp-A1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -479,8 +563,11 @@
             "server": "162.159.192.100",
             "server_port": 7281,
             "tag": "☁️ CFWarp-B1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -491,8 +578,11 @@
             "server": "162.159.192.107",
             "server_port": 4198,
             "tag": "☁️ CFWarp-C1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -503,8 +593,11 @@
             "server": "162.159.192.107",
             "server_port": 7281,
             "tag": "☁️ CFWarp-D1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -515,8 +608,11 @@
             "server": "162.159.192.102",
             "server_port": 1070,
             "tag": "☁️ CFWarp-E1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -527,8 +623,11 @@
             "server": "162.159.192.102",
             "server_port": 3138,
             "tag": "☁️ CFWarp-F1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -539,8 +638,11 @@
             "server": "162.159.192.117",
             "server_port": 1070,
             "tag": "☁️ CFWarp-G1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -551,8 +653,11 @@
             "server": "162.159.192.117",
             "server_port": 3138,
             "tag": "☁️ CFWarp-H1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -563,8 +668,11 @@
             "server": "162.159.192.123",
             "server_port": 1070,
             "tag": "☁️ CFWarp-I1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -575,8 +683,11 @@
             "server": "162.159.192.123",
             "server_port": 3138,
             "tag": "☁️ CFWarp-J1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -587,8 +698,11 @@
             "server": "162.159.192.15",
             "server_port": 1070,
             "tag": "☁️ CFWarp-K1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -599,8 +713,11 @@
             "server": "162.159.192.15",
             "server_port": 3138,
             "tag": "☁️ CFWarp-L1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -611,8 +728,11 @@
             "server": "162.159.192.201",
             "server_port": 1070,
             "tag": "☁️ CFWarp-M1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -623,8 +743,11 @@
             "server": "162.159.192.201",
             "server_port": 3138,
             "tag": "☁️ CFWarp-N1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -635,8 +758,11 @@
             "server": "162.159.192.107",
             "server_port": 4198,
             "tag": "☁️ CFWarp-O1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -647,8 +773,11 @@
             "server": "162.159.192.107",
             "server_port": 7281,
             "tag": "☁️ CFWarp-P1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -659,8 +788,11 @@
             "server": "162.159.192.100",
             "server_port": 4198,
             "tag": "☁️ CFWarp-Q1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -671,8 +803,11 @@
             "server": "162.159.192.100",
             "server_port": 7281,
             "tag": "☁️ CFWarp-R1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -683,8 +818,11 @@
             "server": "162.159.192.107",
             "server_port": 4198,
             "tag": "☁️ CFWarp-S1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -695,8 +833,11 @@
             "server": "162.159.192.107",
             "server_port": 7281,
             "tag": "☁️ CFWarp-T1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -707,8 +848,11 @@
             "server": "162.159.192.100",
             "server_port": 4198,
             "tag": "☁️ CFWarp-U1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -719,8 +863,11 @@
             "server": "162.159.192.100",
             "server_port": 7281,
             "tag": "☁️ CFWarp-V1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -731,8 +878,11 @@
             "server": "162.159.192.107",
             "server_port": 4198,
             "tag": "☁️ CFWarp-W1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -743,8 +893,11 @@
             "server": "162.159.192.107",
             "server_port": 7281,
             "tag": "☁️ CFWarp-X1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -755,8 +908,11 @@
             "server": "162.159.192.100",
             "server_port": 4198,
             "tag": "☁️ CFWarp-Y1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -767,8 +923,11 @@
             "server": "162.159.192.100",
             "server_port": 7281,
             "tag": "☁️ CFWarp-Z1",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -779,8 +938,11 @@
             "server": "162.159.192.142",
             "server_port": 908,
             "tag": "☁️ CFWarp-A2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -791,8 +953,11 @@
             "server": "162.159.192.189",
             "server_port": 908,
             "tag": "☁️ CFWarp-B2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -803,8 +968,11 @@
             "server": "262.259.292.207",
             "server_port": 4298,
             "tag": "☁️ CFWarp-C2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -815,8 +983,11 @@
             "server": "162.159.192.152",
             "server_port": 8742,
             "tag": "☁️ CFWarp-D2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -827,8 +998,11 @@
             "server": "162.159.192.44",
             "server_port": 908,
             "tag": "☁️ CFWarp-E2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -839,8 +1013,11 @@
             "server": "162.159.192.199",
             "server_port": 8742,
             "tag": "☁️ CFWarp-F2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -851,8 +1028,11 @@
             "server": "162.159.192.212",
             "server_port": 8742,
             "tag": "☁️ CFWarp-G2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -863,8 +1043,11 @@
             "server": "162.159.192.212",
             "server_port": 908,
             "tag": "☁️ CFWarp-H2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -875,8 +1058,11 @@
             "server": "162.159.192.44",
             "server_port": 8742,
             "tag": "☁️ CFWarp-I2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -887,8 +1073,11 @@
             "server": "162.159.192.199",
             "server_port": 908,
             "tag": "☁️ CFWarp-J2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -899,8 +1088,11 @@
             "server": "162.159.192.218",
             "server_port": 908,
             "tag": "☁️ CFWarp-K2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -911,8 +1103,11 @@
             "server": "162.159.192.223",
             "server_port": 8742,
             "tag": "☁️ CFWarp-L2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -923,8 +1118,11 @@
             "server": "162.159.192.223",
             "server_port": 908,
             "tag": "☁️ CFWarp-M2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -935,8 +1133,11 @@
             "server": "162.159.192.142",
             "server_port": 8742,
             "tag": "☁️ CFWarp-N2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -947,8 +1148,11 @@
             "server": "162.159.192.125",
             "server_port": 8742,
             "tag": "☁️ CFWarp-O2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -959,8 +1163,11 @@
             "server": "162.159.192.5",
             "server_port": 908,
             "tag": "☁️ CFWarp-P2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -971,8 +1178,11 @@
             "server": "162.159.192.179",
             "server_port": 908,
             "tag": "☁️ CFWarp-Q2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -983,8 +1193,11 @@
             "server": "162.159.192.228",
             "server_port": 908,
             "tag": "☁️ CFWarp-R2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -995,8 +1208,11 @@
             "server": "162.159.192.181",
             "server_port": 908,
             "tag": "☁️ CFWarp-S2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1007,8 +1223,11 @@
             "server": "188.114.97.181",
             "server_port": 908,
             "tag": "☁️ CFWarp-T2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1019,8 +1238,11 @@
             "server": "188.114.97.228",
             "server_port": 8742,
             "tag": "☁️ CFWarp-U2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1031,8 +1253,11 @@
             "server": "188.114.97.6",
             "server_port": 908,
             "tag": "☁️ CFWarp-V2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1043,8 +1268,11 @@
             "server": "188.114.97.99",
             "server_port": 8742,
             "tag": "☁️ CFWarp-W2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1055,8 +1283,11 @@
             "server": "188.114.97.26",
             "server_port": 908,
             "tag": "☁️ CFWarp-X2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1067,8 +1298,11 @@
             "server": "188.114.97.175",
             "server_port": 908,
             "tag": "☁️ CFWarp-Y2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1079,8 +1313,11 @@
             "server": "188.114.97.250",
             "server_port": 908,
             "tag": "☁️ CFWarp-Z2",
+            "udp": true,
+            "reserved": "203,146,161",
+            "keepalive": 45,
+            "mtu": 1280,
             "type": "wireguard",
-            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
