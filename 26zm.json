@@ -156,6 +156,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-A",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -167,6 +168,7 @@
             "server_port": 1014,
             "tag": "☁️ CFWarp-B",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -178,6 +180,7 @@
             "server_port": 1014,
             "tag": "☁️ CFWarp-C",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -189,6 +192,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-D",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -200,6 +204,7 @@
             "server_port": 500,
             "tag": "☁️ CFWarp-E",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -211,6 +216,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-F",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -222,6 +228,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-G",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -233,6 +240,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-H",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -244,6 +252,7 @@
             "server_port": 928,
             "tag": "☁️ CFWarp-I",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -255,6 +264,7 @@
             "server_port": 968,
             "tag": "☁️ CFWarp-J",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -266,6 +276,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-K",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -277,6 +288,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-L",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -288,6 +300,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-M",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -299,6 +312,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-N",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -310,6 +324,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-O",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -321,6 +336,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-P",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -332,6 +348,7 @@
             "server_port": 1843,
             "tag": "☁️ CFWarp-Q",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -343,6 +360,7 @@
             "server_port": 1010,
             "tag": "☁️ CFWarp-R",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -354,6 +372,7 @@
             "server_port": 1843,
             "tag": "☁️ CFWarp-S",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -365,6 +384,7 @@
             "server_port": 968,
             "tag": "☁️ CFWarp-T",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -376,6 +396,7 @@
             "server_port": 955,
             "tag": "☁️ CFWarp-U",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -387,6 +408,7 @@
             "server_port": 3476,
             "tag": "☁️ CFWarp-V",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -398,6 +420,7 @@
             "server_port": 3476,
             "tag": "☁️ CFWarp-W",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -409,6 +432,7 @@
             "server_port": 955,
             "tag": "☁️ CFWarp-X",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -420,6 +444,7 @@
             "server_port": 968,
             "tag": "☁️ CFWarp-Y",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -431,6 +456,7 @@
             "server_port": 3476,
             "tag": "☁️ CFWarp-Z",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -442,6 +468,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-A1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -453,6 +480,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-B1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -464,6 +492,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-C1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -475,6 +504,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-D1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -486,6 +516,7 @@
             "server_port": 1070,
             "tag": "☁️ CFWarp-E1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -497,6 +528,7 @@
             "server_port": 3138,
             "tag": "☁️ CFWarp-F1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -508,6 +540,7 @@
             "server_port": 1070,
             "tag": "☁️ CFWarp-G1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -519,6 +552,7 @@
             "server_port": 3138,
             "tag": "☁️ CFWarp-H1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -530,6 +564,7 @@
             "server_port": 1070,
             "tag": "☁️ CFWarp-I1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -541,6 +576,7 @@
             "server_port": 3138,
             "tag": "☁️ CFWarp-J1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -552,6 +588,7 @@
             "server_port": 1070,
             "tag": "☁️ CFWarp-K1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -563,6 +600,7 @@
             "server_port": 3138,
             "tag": "☁️ CFWarp-L1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -574,6 +612,7 @@
             "server_port": 1070,
             "tag": "☁️ CFWarp-M1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -585,6 +624,7 @@
             "server_port": 3138,
             "tag": "☁️ CFWarp-N1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -596,6 +636,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-O1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -607,6 +648,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-P1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -618,6 +660,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-Q1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -629,6 +672,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-R1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -640,6 +684,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-S1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -651,6 +696,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-T1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -662,6 +708,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-U1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -673,6 +720,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-V1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -684,6 +732,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-W1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -695,6 +744,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-X1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -706,6 +756,7 @@
             "server_port": 4198,
             "tag": "☁️ CFWarp-Y1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -717,6 +768,7 @@
             "server_port": 7281,
             "tag": "☁️ CFWarp-Z1",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "172.16.0.2/32"
             ],
@@ -728,6 +780,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-A2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -739,6 +792,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-B2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -750,6 +804,7 @@
             "server_port": 4298,
             "tag": "☁️ CFWarp-C2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -761,6 +816,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-D2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -772,6 +828,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-E2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -783,6 +840,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-F2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -794,6 +852,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-G2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -805,6 +864,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-H2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -816,6 +876,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-I2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -827,6 +888,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-J2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -838,6 +900,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-K2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -849,6 +912,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-L2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -860,6 +924,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-M2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -871,6 +936,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-N2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -882,6 +948,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-O2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -893,6 +960,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-P2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -904,6 +972,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-Q2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -915,6 +984,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-R2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -926,6 +996,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-S2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -937,6 +1008,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-T2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -948,6 +1020,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-U2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -959,6 +1032,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-V2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -970,6 +1044,7 @@
             "server_port": 8742,
             "tag": "☁️ CFWarp-W2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -981,6 +1056,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-X2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -992,6 +1068,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-Y2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
@@ -1003,6 +1080,7 @@
             "server_port": 908,
             "tag": "☁️ CFWarp-Z2",
             "type": "wireguard",
+            "reserved": [203,146,161],
             "local_address": [
                 "192.168.0.2/32"
             ],
