@@ -1,4 +1,4 @@
-{"sites":[{"key":"本地","name":"🌏🐝蜂❤️蜜💛大💚屌💙线💜路☯️🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Local","searchable":0,"changeable":0},
+{"sites":[{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"https://qu.ax/uukw.js"},
 /*------------------------分割线------------------------*/
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"jar":"./有来急救百科.jar;md5;510fa1663f7067bd4d40de06097202bf"},
 /*------------------------分割线------------------------*/
@@ -41,8 +41,6 @@
 {"key":"𝐹𝑜𝓃𝑔𝑀𝒾","name":"𝐹𝑜𝓃𝑔𝑀𝒾磁力","type":3,"style":{"type":"rect","ratio":1.485},"api":"https://qu.ax/ntMk.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://dpaste.com/3WQUQ4WAV.txt"},
 /*------------------------分割线------------------------*/
 {"key":"lf_js_p2p","name":"路飞_p2p磁力搜索","type":3,"style":{"type":"rect","ratio":1.485},"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"recordable":0,"api":"https://qu.ax/cLnn.js","ext":"18+"},
-/*------------------------分割线------------------------*/
-{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"https://qu.ax/uukw.js"},
 /*------------------------分割线------------------------*/
 {"key":"drpy_js_爱看机器人","name":"爱看机器人","type":3,"style":{"type":"rect","ratio":1.485},"api":"https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ikanbot2.js"},
 /*------------------------分割线------------------------*/
@@ -670,6 +668,8 @@
       ]
     },
 /*------------------------分割线{"key":"push_agent","name":"翘鸡吧推送","type":3,"jar":"./1013.jar","api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://www.qiaoji8.com/jar1/token.txt"},------------------------*/
+{"key":"本地","name":"🌏🐝蜂❤️蜜💛大💚屌💙线💜路☯️🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Local","searchable":0,"changeable":0},
+/*------------------------分割线------------------------*/
 {
     "key": "push_agent",
     "name": "推送 | lf_push",
