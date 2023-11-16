@@ -920,76 +920,100 @@
     "name": "GitHub服务器SO-v7a",
     "list": [
       {
-        "name": "荐片",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_armeabi_v7a.so",
+        "name": "so32位自解包",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/so-v7a.zip",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "version": "32位so自解包"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libffmpegJNI.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "EXO"
+      },
+      {
+        "name": "av1",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libgav1JNI.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "EXO"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijkffmpeg.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "sdl",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijksdl.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "player",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libplayer.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "荐片",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libjpa.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_armeabi_v7a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libxl_stat.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_armeabi_v7a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libxl_thunder_sdk.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
-        "name": "mitv米库",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libmitv.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "name": "晴天",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libmitv.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P2P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp2p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp2p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P3P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp3p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp3p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P4P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp4p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp4p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P5P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp5p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp5p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P6P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp6p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp6p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P7P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp7p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp7p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P8P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp8p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp8p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P9P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp9p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "32位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp9p.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       }
     ]
   },
@@ -997,22 +1021,55 @@
     "name": "GitHub服务器SO-v8a",
     "list": [
       {
-        "name": "荐片",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_arm64_v8a.so",
+        "name": "so64位自解包",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/so-v8a.zip",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "64位"
+        "version": "64位so自解包"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libffmpegJNI.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "EXO"
+      },
+      {
+        "name": "av1",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libgav1JNI.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "EXO"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libijkffmpeg.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "sdl",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libijksdl.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "player",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libplayer.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "IJK"
+      },
+      {
+        "name": "荐片",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libjpa.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_arm64_v8a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "64位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libxl_stat.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_arm64_v8a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "64位"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libxl_thunder_sdk.so",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       }]},
         {
     "name": "本地包配置",
