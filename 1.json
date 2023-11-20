@@ -235,7 +235,7 @@
     }},
     {"key":"玩偶表哥弹幕","name":"玩偶表哥弹幕|4K","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext": {
       "token": "https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt",
-      "cookie": "https://127.0.0.1:9978/file/Download/tvfan/quark_cookie.txt",
+      "cookie": "./夸克cookie.txt",
       "danmu" : true
     }},
     {"key":"bili","name":"哔哩哔哩","type": 3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1, "style": {
@@ -258,7 +258,7 @@
     {"key":"索尼","name":"索尼 ","type":1,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"changeable":1},
     {"key":"快帆","name":"快帆","type":1,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1},
     {"key":"量子","name":"量子","type":0,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1},
-    {"key":"csp_QuPanSou","name":"趣盘搜┃搜索","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"https://127.0.0.1:9978/file/Download/tvfan/quark_cookie.txt", "danmu": true}},
+    {"key":"csp_QuPanSou","name":"趣盘搜┃搜索","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"./夸克cookie.txt", "danmu": true}},
     {"key":"纸条","name":"纸条┃搜索","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "danmu": true}},
     {"key":"盘Se","name":"盘Se┃搜索","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "danmu": true}},
     {"key":"找資源","name":"找資源┃搜索","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_Zhaozy","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "username": "test2", "password": "test2", "danmu": true}},
@@ -765,7 +765,7 @@
 /*------------------------分割线------------------------*/
 {"key":"本地","name":"🌏🐝蜂❤️蜜💛大💚屌💙线💜路☯️🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Local","searchable":0,"changeable":0},
 /*------------------------分割线------------------------*/
-    {"key":"push_agent","name":"推送","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "cookie": "https://127.0.0.1:9978/file/Download/tvfan/quark_cookie.txt", "danmu": true}}],
+    {"key":"push_agent","name":"推送","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "cookie": "./夸克cookie.txt", "danmu": true}}],
 /*------------------------分割线------------------------*/
 "rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com","raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*",".*wogg.xyz"]},
 /*------------------------分割线------------------------*/
