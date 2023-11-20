@@ -762,7 +762,7 @@
       }]}
       ]
     },
-/*------------------------分割线{"key":"push_agent","name":"翘鸡吧推送","type":3,"jar":"./1013.jar","api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://www.qiaoji8.com/jar1/token.txt"},------------------------*/
+/*------------------------分割线------------------------*/
 {"key":"本地","name":"🌏🐝蜂❤️蜜💛大💚屌💙线💜路☯️🈹","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Local","searchable":0,"changeable":0},
 /*------------------------分割线------------------------*/
     {"key":"push_agent","name":"推送","type":3,  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/okcaptain/okjar/main/ok.jpg","api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"https://127.0.0.1:9978/file/Download/tvfan/ali_token.txt", "cookie": "https://127.0.0.1:9978/file/Download/tvfan/quark_cookie.txt", "danmu": true}}],
@@ -910,7 +910,6 @@
 /*------------------------分割线------------------------*/
 {"name":"Json并发","type":2,"url":"Parallel"},
 /*------------------------分割线------------------------*/
-{"name":"翘🐔吧","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}},
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","qiyi","优酷","mgtv"]}},
 {"name":"小米","type":0,"url":"https://jx.xmflv.cc/?url=","ext":{"flag":["qq","qiyi","优酷","mgtv"]}},
 {"name":"杰森","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"flag":["qq","qiyi","优酷","mgtv"]}},
@@ -1432,9 +1431,7 @@
 /*------------------------分割线------------------------*/
 {"name":"不累","type":0,"url":"https://blbfq.f3322.net/player/analysis.php?v=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
 /*------------------------分割线------------------------*/
-{"name":"365","type":0,"url":"https://chaxun.truechat365.com/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
-/*------------------------分割线------------------------*/
-{"name":"古哥解析","type":0,"url":"https://qiaoji8.com/vip/?url=","ext":{"flag":["ltnb","renrenmi","rx","xfyun","muxm3u8","xigua","xueren","qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","bilibili","哔哩哔哩","哔哩","pptv","PPTV","sohu","letv"]}}],
+{"name":"365","type":0,"url":"https://chaxun.truechat365.com/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}],
 /*------------------------分割线------------------------*/"ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 /*------------------------分割线------------------------*/
 {"category":4,"name":"overlay-format","value":"842225234"},
