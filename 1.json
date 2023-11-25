@@ -902,7 +902,8 @@
 /*------------------------分割线------------------------*/
 {"name":"网友自用","type":0,"url":"https://raw.githubusercontent.com/xiaolinshao/TVBox/main/自用直播油管源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 /*------------------------分割线------------------------*/
-"parses":[{"name":"解析聚合","type":3,"url":"Demo"},
+"parses":[{"name":"777解析","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"flag":["*","."]}},
+{"name":"解析聚合","type":3,"url":"Demo"},
 /*------------------------分割线------------------------*/
 {"name":"Web聚合","type":3,"url":"Web"},
 /*------------------------分割线------------------------*/
@@ -924,7 +925,6 @@
 {"name":"索尼资源解析","type":3,"url":"https://www.snplayer.com/?url=","ext":{"flag":["*","."]}},
 {"name":"甜蜜解析","type":3,"url":"https://timizy10.cc/m3u8.php?url=","ext":{"flag":["*","."]}},
 {"name":"魔都解析","type":3,"url":"https://www.moduzy.com/jiexi/?url=","ext":{"flag":["*","."]}},
-{"name":"解析接口一","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"flag":["*","."]}},
 {"name":"解析接口三","type":0,"url":"http://www.miaoys.cc/vip/?url=","ext":{"flag":["*","."]}},
 {"name":"13","type":0,"url":"http://www.miaoys.cc/vip/?url=","ext":{"flag":["*","."]}},
 {"name":"阿里云","type":1,"url":"https://www.aliyundrive.com.2kj.org/?url=","ext":{"flag":["*","."]}},
