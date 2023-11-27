@@ -275,170 +275,176 @@
       "searchable": 1,
       "changeable": 1,
       "ext": [
-      { "name": "推薦更新",
+      { "name": "推荐",
       "list": [
+        { "name": "打赏武哥一杯奶茶",
+          "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥1.png",
+          "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥1.png",
+          "version": "奶茶",
+          "copy": "https://t.me/broqun"
+        },
         {
-          "name": "官方精简稳定手機版-java-v7",
+          "name": "精简稳定手機java-v7",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "32位纯EXO播放器"
         },
         {
-          "name": "官方精简稳定手機版-java-v8",
+          "name": "精简稳定手機java-v8",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "64位纯EXO播放器"
         },
         {
-          "name": "官方精简稳定電視版-java-v7",
+          "name": "精简稳定電視java-v7",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "32位纯EXO播放器"
         },
         {
-          "name": "官方精简稳定電視版-java-v8",
+          "name": "精简稳定電視java-v8",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "64位纯EXO播放器"
         },
         {
-          "name": "稳定電視版-4.1-4.4",
+          "name": "稳定電視4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-java-v7",
+          "name": "稳定電視java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-python-v7",
+          "name": "稳定電視python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         }]},
-      { "name": "蜂蜜大屌电视版更新",
+      { "name": "电视正式版",
       "list": [
         {
-          "name": "稳定電視版-4.1-4.4",
+          "name": "稳定電視4.1-4.4",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/kitkat/leanback.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-java-v7",
+          "name": "稳定電視java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-python-v7",
+          "name": "稳定電視python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-java-v8",
+          "name": "稳定電視java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定電視版-python-v8",
+          "name": "稳定電視python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         }]},
-        { "name": "蜂蜜大屌开发电视版更新",
+        { "name": "电视测试版",
       "list": [
         {
-          "name": "开发電視版-java-v7",
+          "name": "开发電視java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-Java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发電視版-python-v7",
+          "name": "开发電視python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发電視版-java-v8",
+          "name": "开发電視java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发電視版-python-v8",
+          "name": "开发電視python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         }]},
-      { "name": "蜂蜜大屌手机稳定版更新",
+      { "name": "手机正式版",
       "list": [
         {
-          "name": "稳定手機版-java-v7",
+          "name": "稳定手機java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定手機版-python-v7",
+          "name": "稳定手機python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定手機版-java-v8",
+          "name": "稳定手機java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "稳定手機版-python-v8",
+          "name": "稳定手機python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         }]},
-        { "name": "蜂蜜大屌开发手机版更新",
+        { "name": "手机测试版更新",
       "list": [
         {
-          "name": "开发手機版-java-v7",
+          "name": "开发手機java-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发手機版-python-v7",
+          "name": "开发手機python-v7",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发手機版-java-v8",
+          "name": "开发手機java-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-java-armeabi_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         },
         {
-          "name": "开发手機版-python-v8",
+          "name": "开发手機python-v8",
           "url": "https://fongmi.cachefly.net/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/apk/main/蜂蜜大屌.png",
-           "version": "官方更新拾分钟后自动刷新"
+           "version": "官方升级线路"
         }]},
      { "name": "武哥自用TV版推荐",
      "list": [
         {
-          "name": "官方精简稳定電視版-java-v7",
+          "name": "精简稳定電視java-v7",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "32位纯EXO播放器"
         },
         {
-          "name": "官方精简稳定電視版-java-v8",
+          "name": "精简稳定電視java-v8",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/leanback-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "64位纯EXO播放器"
@@ -494,13 +500,13 @@
         { "name": "武哥自用平板for手机系列",
      "list": [
         {
-          "name": "官方精简稳定手機版-java-v7",
+          "name": "精简稳定手機java-v7",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-armeabi_v7a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "32位纯EXO播放器"
         },
         {
-          "name": "官方精简稳定手機版-java-v8",
+          "name": "精简稳定手機java-v8",
           "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/mobile-java-arm64_v8a.apk",
           "icon": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/武哥.png",
            "version": "64位纯EXO播放器"
