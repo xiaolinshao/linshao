@@ -1121,15 +1121,15 @@
     },
 /*------------------------分割线------------------------*/
 {
-    "key": "push_agent",
-    "name": "推送 | lf_push",
-    "type": 3,
-    "searchable": 0,
-    "changeable": 1,
-    "quickSearch": 0,
-    "filterable": 0,
-    "api": "./lf_pushagent1_5_min.js",
-    "ext": "你的token(字母+数字) 或 本地token.txt 或 在线token地址"}],
+            "key": "push_agent",
+            "name": "📨┃影视┃推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|fhd|auto"
+        }],
 /*------------------------分割线------------------------*/
 "rules":[{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","api.nivodz.com","static.nivod.tv","c.biggggg.com","c.olddddd.com","www.histar.tv","yc.cdn.media.ulivetv.net","vip.kuaikan-cdn3.com","aws.ulivetv.net","cdn.v82u1l.com","cdn.iz8qkg.com","haiwaikan.com","www.duboku.tv","my.duboku.vip","bokux.com","uhibo.com","boku.com","www.youtube.com","raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*",".*wogg.xyz"]},
 /*------------------------分割线------------------------*/
@@ -1212,6 +1212,7 @@
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
 /*------------------------分割线------------------------*/
 "lives":[
+{"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./央妈.m3u","boot":false},
 {"name":"半路捡来的","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 /*------------------------分割线------------------------*/
 {"name":"小小TV直播","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
