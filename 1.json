@@ -2,6 +2,16 @@
 /*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"https://qu.ax/uukw.js"},
 /*------------------------分割线------------------------*/
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"jar":"./有来急救百科.jar;md5;510fa1663f7067bd4d40de06097202bf"},
+{"key":"Yingtantv","name": "💯影探┃TV┃App","type":3,"api":"csp_Yingtantv","searchable":1,"changeable":0,"jar":"./影探王二小放牛娃.jar"},
+{
+   "key": "安博",
+   "name": "安博点播",
+   "type": 4,
+   "api": "https://ali.唐.hz.cz/site/ub1818",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0
+  },
 /*------------------------分割线------------------------*/
 {
       "key": "賤賤",
@@ -1169,7 +1179,8 @@
 /*------------------------分割线------------------------*/
 {"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 /*------------------------分割线------------------------*/
-{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":[".","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name": "廣告","hosts": [".","*"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?muguacdn.*?\\.ts\\s+","#EXTINF.*?\\s+.*?original.*?\\.ts\\s+","#EXTINF.*?\\s+.*?\\/[\\d]{8}\\/[a-zA-Z0-9]{8}\\/hls\\/.*?\\.ts\\s+","#EXTINF.*?\\s+.*[1-9][\\d]{4}\\.ts\\s+"]},
 /*------------------------分割线------------------------*/
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},
 /*------------------------分割线------------------------*/
@@ -1191,7 +1202,7 @@
 /*------------------------分割线------------------------*/
 {"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]}],
 /*------------------------分割线------------------------*/
-"doh":[{"name":"OpenDNS","url":"https://dns.www.opendns.com/dns-query","ips":["208.67.222.222","208.67.220.220"]},
+"doh":[{"name":"打开DNS","url":"https://dns.www.opendns.com/dns-query","ips":["208.67.222.222","208.67.220.220"]},
 /*------------------------分割线------------------------*/
 {"name":"114dns","url":"https://dns.114dns.com/dns-query","ips":["114.114.114.114","114.114.115.115"]},
 /*------------------------分割线------------------------*/
