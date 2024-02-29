@@ -7,7 +7,17 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable":0
-    },
+    },{
+            "key": "csp_xBPQ_女优",
+            "name": "女优",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./女优.json",
+            "jar":"./Yoursmile2.jar"
+        },
   {
       "key": "AList",
       "name": "❤罗汉果专用",
@@ -36,7 +46,21 @@
           }
         ]
       }
-    },{"key":"csp_JavDb","name":"🧲JavDb","type":3,"api":"csp_JavDb","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://qu.ax/QPQT.jpg"},
+    },
+    {
+            "key": "Taohuazu",
+            "name": "桃花族",
+            "type": 3,
+            "api": "csp_Taohuazu",
+            "jar": "./pg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "http://thze.cc/"
+        },
+    {"key":"csp_JavDb","name":"🧲JavDb","type":3,"api":"csp_JavDb","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://qu.ax/QPQT.jpg"},
     {"key":"MV_vod","name":"👀┃19┃视频","type":1,"style":{"type":"rect","ratio":1.485},"api":"https://sousu.popefih902.repl.co/vod/19","searchable":1,"quickSearch":1,"filterable":1},
     { "key": "18A貓", "name": "18A貓", "type": 3,"style":{ "type":"rect", "ratio":1.485 }, "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js", "searchable": 1 },
     {"key":"tianmi","name":"甜蜜资源","type":1,"style":{"type":"rect","ratio":1.485},"api":"https://timizy10.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
