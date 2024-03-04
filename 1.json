@@ -10,30 +10,7 @@
             "filterable": 1,
             "api": "./lf_p2p2_min.js",
             "ext": "18+"
-        },{
-            "key": "网盘配置",
-            "name": "网盘及彈幕配置",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "./lib/tokenm.json",
-            "jar":"./pg.jar"
         },
-{
-            "key": "PikPakShare",
-            "name": "PikPak分享",
-            "type": 3,
-            "api": "csp_PikPakShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
-            "jar":"./pg.jar"
-        },
-        	{"key":"Moli","name":"HDmoli|网盘","jar":"./pg.jar","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
 /*------------------------分割线------------------------*/
 {"key":"csp_Aid","name":"🚑︎🈶来急救百科","type":3,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"jar":"./有来急救百科.jar;md5;510fa1663f7067bd4d40de06097202bf"},
 /*------------------------分割线------------------------*/
