@@ -39,6 +39,147 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
+    {
+      "key": "AList",
+      "name": "❤罗汉果专用",
+      "type": 3,"style":{ "type":"rect", "ratio":1.485 },
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {     
+  "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
+        "drives": [
+{
+      "name": "玩的就是小雅",
+      "server": "https://tvbox.497356877.xyz:16666/"
+    },
+    {
+      "name": "觸光",
+      "server": "https://pan.ichuguang.com"
+    },
+    {
+      "name": "星梦",
+      "server": "https://pan.bashroot.top"
+    },
+          {
+            "name": "🟢 合集",
+            "server": "http://www.jczyl.top:5244/"
+          },
+          {
+            "name": "🟢 东哥",
+            "server": "http://101.34.67.237:5244/"
+          },
+          {
+            "name": "🟢 美云",
+            "server": "https://h.dfjx.ltd/"
+          },
+          {
+            "name": "🟢 小新",
+            "server": "https://pan.cdnxin.top/"
+          },
+          {
+            "name": "🟢 白云",
+            "server": "http://breadmyth.asuscomm.com:22222/"
+          },
+          {
+            "name": "🟢 小鸭",
+            "server": "http://www.214728327.xyz:5201/"
+          },
+          {
+            "name": "🟢 瑶瑶",
+            "server": "https://lyly.run.goorm.io/"
+          },
+          {
+            "name": "🟢 潇洒",
+            "server": "https://alist.azad.asia/"
+          },
+          {
+            "name": "🟢 鹏程",
+            "server": "https://pan.pengcheng.team/"
+          },
+          {
+            "name": "🟢 浅唱",
+            "server": "http://vtok.pp.ua/"
+          },
+          {
+            "name": "🟢 小丫",
+            "server": "http://alist.xiaoya.pro/"
+          },
+          {
+            "name": "🟢 触光",
+            "server": "https://pan.ichuguang.com"
+          },
+          {
+            "name": "🟢 弱水",
+            "server": "http://shicheng.wang:555/"
+          },
+          {
+            "name": "🟢 神器",
+            "server": "https://alist.ygxz.xyz/"
+          },
+          {
+            "name": "🟢 资源",
+            "server": "https://pan.ecve.cn/"
+          },
+          {
+            "name": "🟢 雨呢",
+            "server": "https://pan.clun.top/"
+          },
+          {
+            "name": "🟢 oeio",
+            "server": "https://o.oeio.repl.co/"
+          },
+          {
+            "name": "🟢 悦享",
+            "server": "https://nics.eu.org/"
+          },
+          {
+            "name": "🟢 分享",
+            "server": "https://ofoo.ml/"
+          },
+          {
+            "name": "🟢 PRO",
+            "server": "https://alist.prpr.run/"
+          },
+          {
+            "name": "🟢 多多",
+            "server": "https://pan.xwbeta.com"
+          },
+          {
+            "name": "🟢 小陈",
+            "server": "https://ypan.cc/"
+          },
+          {
+            "name": "🟢 只鱼",
+            "server": "https://alist.youte.ml"
+          },
+          {
+            "name": "🟢 七米",
+            "server": "https://al.chirmyram.com"
+          },
+          {
+            "name": "🟢 九帝",
+            "server": "https://alist.shenzjd.com"
+          },
+          {
+            "name": "🟢 白雪",
+            "server": "https://pan.jlbx.xyz"
+          },
+          {
+            "name": "🟢 星梦",
+            "server": "https://pan.bashroot.top"
+          },
+          {
+            "name": "🟢 repl",
+            "server": "https://ali.liucn.repl.co"
+          },
+          {
+            "name": "🟢 讯维",
+            "server": "https://pan.xwbeta.com"
+          }
+        ]
+      }
+    },
 /*------------------------分割线------------------------*/
 {"key":"WebDAV","name":"WebDAV","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":{"vodPic":"https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg","drives":[{"name":"七米藍","server":"https://al.chirmyram.com/dav","user":"alist","pass":"alist"},{"name":"影視庫","server":"https://esir.eu.org/dav","user":"alist","pass":"alist"}
 ]}},
