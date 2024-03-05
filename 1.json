@@ -39,6 +39,45 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
+    {
+            "key": "Fang niu4k",
+            "name": "🇨🇳放牛·4k",
+            "type": 3,
+            "api": "csp_Fangniu4k",
+            "searchable": 1,
+            "changeable": 0,
+            "jar": "./放牛4k.jar"
+        },{
+            "key": "罗汉拳",
+            "name": "👍👍┃阿西吧┃",
+            "type": 3,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "api": "csp_AList",
+              "jar": "https://raw.githubusercontent.com/yylxhjgy/yylx/95bb226fff27b5dda2997d5fb7d5f81889f72a59/3.0//lib/秒播.txt",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
+                "drives": [
+                    {
+                        "name": "ECVE",
+                        "server": "https://pan.ecve.cn"
+                    },
+                    {
+                        "name": "【4K点播】☞按片名首字母↓往下翻页",
+                        "server": "https://pan.ecve.cn"
+                    },
+                    {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    }
+                 
+                ]
+            }
+        },
 /*------------------------分割线------------------------*/
 {"key":"WebDAV","name":"WebDAV","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":{"vodPic":"https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg","drives":[{"name":"七米藍","server":"https://al.chirmyram.com/dav","user":"alist","pass":"alist"},{"name":"影視庫","server":"https://esir.eu.org/dav","user":"alist","pass":"alist"}
 ]}},
