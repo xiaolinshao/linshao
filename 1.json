@@ -40,14 +40,6 @@
       "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
-            "key": "Fang niu4k",
-            "name": "🇨🇳放牛·4k",
-            "type": 3,
-            "api": "csp_Fangniu4k",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "./放牛4k.jar"
-        },{
             "key": "罗汉拳",
             "name": "👍👍┃阿西吧┃",
             "type": 3,
@@ -267,6 +259,53 @@
       "filterable": 1,
       "jar": "https://www.macms.pro/box/lib/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
       "ext": "https://www.macms.pro/box/lib/Bili短剧.json"
+    },
+    {
+      "key": "爱KTV",
+      "name": "爱KTV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./爱ktv.jar",
+      "ext": {
+
+
+//"请求头": "手机",//User-Agent$MOBILE_UA  User-Agent$PC_UA
+"分类": "歌手&",
+"分类值": "singer&",
+"分类url": "https://vpsdn.leuse.top/searchmv?table={cateId}&pg={catePg}",
+//"二次截取": "",
+"数组": "[&&]",
+"标题": "name",
+"图片": "'http://txysong.mysoto.cc/singers/'+id+'.jpg'",
+"链接前缀": "https://vpsdn.leuse.top/searchmv?where=singer_names&keywords=",
+"链接后缀": "&size=130",
+"链接": "name",
+//"直接播放": "",
+//"搜索模式": "",
+"搜索url":"https://vpsdn.leuse.top/searchmv?keywords={wd}",
+"搜索数组": "[&&]",
+"搜索图片": "'http://txysong.mysoto.cc/singers/1'+id+'.jpg'",
+"搜索标题": "name",
+"搜索副标题": "",
+"搜索链接": "name",
+"搜索链接前缀": "https://vpsdn.leuse.top/searchmv?keywords=",
+"搜索链接后缀": "&size=130",
+"线路名二次截取": "",
+"线路数组": "",
+"线路标题": "",
+"导演": "cz",
+"主演": "cz",
+"播放二次截取": "[&&]",
+"播放数组": "",
+"播放列表": "{&&}",
+"播放标题": "name\": \"&&\",",
+"播放链接前缀": "http://txysong.mysoto.cc/songs/",
+"播放链接后缀": ".mkv",
+"播放链接": "number\":&&,",
+"免嗅": "1",
+"嗅探词": ".m3u8#mkv"
+
+}
     },
     {
       "key": "XBPQ_葡萄",
