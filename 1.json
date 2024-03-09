@@ -91,9 +91,9 @@
 /*------------------------分割线------------------------*/
 {"key": "新6V","name": "新6V","type": 3,"api": "csp_Xb6v","searchable": 1,"changeable": 0,"style":{"type":"rect","ratio":1.485}},
 /*------------------------分割线------------------------*/
-{"key":"路飞大佬","name":"路飞真转点1","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"https://qu.ax/bzoe.js","ext":"https://dpaste.com/4ACVXXT7N.txt"},
+{"key":"路飞大佬","name":"路飞真转点1","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./在线直播转点播.js","ext":"./在线直播文件指向.txt"},
 /*------------------------分割线------------------------*/
-{"key":"路飞","name":"路飞直转点2","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"https://qu.ax/Mud.js","searchable":1,"changeable":1,"ext":"https://dpaste.com/4ACVXXT7N.txt"},
+{"key":"路飞","name":"路飞直转点2","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
 /*------------------------分割线------------------------*/
 {"key":"lf_js_p2p","name":"路飞_p2p磁力搜索","type":3,"style":{"type":"rect","ratio":1.485},"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"recordable":0,"api":"https://qu.ax/cLnn.js","ext":"18+"},
 /*------------------------分割线------------------------*/

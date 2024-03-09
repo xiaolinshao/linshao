@@ -1,0 +1,4 @@
+#IPTV
+1
+#在线直播转点播
+https://raw.githubusercontent.com/xiaolinshao/linshao/main/在线直播转点播文件.txt
