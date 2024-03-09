@@ -8,7 +8,8 @@
       "quickSearch": 0,
       "filterable": 0",
       "jar":"./netflav.jar"
-       },{
+       },
+       {
             "key": "csp_xBPQ_女优",
             "name": "女优",
             "type": 3,
@@ -18,6 +19,29 @@
             "filterable": 0,
             "ext": "./女优.json",
             "jar":"./Yoursmile2.jar"
+        },
+        {
+            "key": "csp_xBPQ_404精品",
+            "name": "404精品T",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar":"./香雅情.jar",
+            "ext": {
+                "站名": "404精品",
+                "主页url": "https://404jpz.xyz/",
+                "分类": "精品推荐$27#剧情原创$28#探花约啪$51#主播大秀$52#传媒影像$53#情色节目$59#P站精品$61#抖阴短视频$63#网曝门$70#AV解说$76#国产视频$29#网红主播$30#偷拍自拍$31#国产伦理$77#国产精品$75#日韩视频$1#中文字幕$33#名优写真$35#日本伦理$39#名优综艺$40#韩美眉主播$41#骑兵有码$43#无码专区$6#卡通动漫$8#欧美$34",
+                "数组": "<div class=\"content\">&&</div>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "title=\"&&\"",
+                "分类url": "https://404jpz.xyz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "直接播放": "1",
+                "免嗅": "1"
+            }
         },
   {
       "key": "AList",
@@ -184,7 +208,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"请勿外传$2k-yazhou#按主页切换源$2k-zipaitoupai#无分类切换VPN$2k-chaoqingchuanmei#或者其他网络$2k-3Ddongman#资源网络共享$2k-oumei#有倒卖贩卖纯属欺诈$2k-luanlunrenqi#请勿相信！$2k-siwazhifu#绝对禁止未成年人观看$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \".html\", \"直接播放\": \"1\" }"
         },
         {
@@ -194,7 +218,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_xBPQ",
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "m3u8#.m3u8",
@@ -252,7 +276,7 @@
                 "分类url": "https://chinaxxoo1000.pw/index.php/vod/type/id/{cateId}/page/{catePg}.html",
                 "分类": "有码$23#中文$24"
             },
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar"
+            "jar": "./Yoursmile2.jar"
         },
         {
             "key": "MissAV",
@@ -273,7 +297,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉AV解说.json"
         },
         {
@@ -284,7 +308,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/香蕉资源.json"
         },
         {
@@ -295,7 +319,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉超清资源.json"
         },
         {
@@ -306,7 +330,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉国产传媒.json"
         },
         {
@@ -317,7 +341,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉久久热.json"
         },
         {
@@ -328,7 +352,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉废柴网.json"
         },
         {
@@ -339,7 +363,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar",
+            "jar": "./Yoursmile2.jar",
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉实时直播.json"
         },
         {
@@ -470,7 +494,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://akun.work.gd/upload/xBPQ/新香蕉AV解说.json",
-            "jar": "http://akun.work.gd/upload/jar/Yoursmile2.jar"
+            "jar": "./Yoursmile2.jar"
         },
         {
             "key": "青楼专场",
