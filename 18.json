@@ -9,6 +9,7 @@
       "filterable": 0",
       "jar":"./netflav.jar"
        },
+       {"key":"Taohuazu","name":"🔞桃花族","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60,"jar":"./netflav.jar"},
        {
             "key": "csp_xBPQ_女优",
             "name": "女优",
