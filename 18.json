@@ -1,13 +1,14 @@
 {
-  "sites": [
-   {
-      "key": "本地",
-      "name": "❤本地",
-      "type": 3,"style":{ "type":"rect", "ratio":1.485 },
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable":0
-    },{
+  "sites": [{
+      "key": "AV_Netflav",
+      "name": "🔞Netflav",
+      "type": 3,
+      "api": "csp_Netflav",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0",
+      "jar":"./netflav.jar"
+       },{
             "key": "csp_xBPQ_女优",
             "name": "女优",
             "type": 3,
@@ -29,8 +30,8 @@
   "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
         "drives": [
 {
-      "name": "ECVE",
-      "server": "https://pan.ecve.cn"
+      "name": "玩的就是小雅",
+      "server": "https://tvbox.497356877.xyz:16666/"
     },
     {
       "name": "觸光",
