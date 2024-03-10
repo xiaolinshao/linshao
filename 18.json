@@ -1,5 +1,14 @@
 {
-  "sites": [
+  "sites": [{
+			"key": "网盘配置",
+			"name": "磁力设置+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
   {"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./磁力/tokentemplate.json$$$./磁力/pushshare.txt$$$db$$$1",
    "style": {"type": "list", "ratio": 1.1}, "jar":"./磁力/磁力+netflav.jar"},
   {"key":"路飞","name":"路飞直转点","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
@@ -13,16 +22,7 @@
       },
       {"key":"蜂蜜旧泥巴","name":"蜂蜜旧泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":1},
 /*------------------------分割线------------------------*/
-	{
-			"key": "网盘配置",
-			"name": "磁力设置+网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"jar":"./磁力/磁力+netflav.jar",
-			"ext":"./磁力/tokentemplate.json"
-		},
+	
 		{
       "key": "AV_Netflav",
       "name": "🔞Netflav",

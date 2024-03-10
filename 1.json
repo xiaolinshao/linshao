@@ -1,6 +1,16 @@
 {"sites":[
 /*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},
 {
+			"key": "网盘配置",
+			"name": "磁力+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
+{
             "key": "lf_js_p2p",
             "name": "磁力p2p",
             "type": 3,
@@ -11,16 +21,6 @@
             "api": "./lf_p2p2_min.js",
             "ext": "18+"
         },
-		{
-			"key": "网盘配置",
-			"name": "磁力+网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"jar":"./磁力/磁力+netflav.jar",
-			"ext":"./磁力/tokentemplate.json"
-		},
 		{
 			"key": "新6V",
 			"name": "新6V|网盘",
