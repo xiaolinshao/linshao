@@ -1,6 +1,17 @@
 {
   "sites": [
   {"key":"路飞","name":"路飞直转点","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
+  { 
+        "key": "🟢泥巴", 
+        "name": "🟢 泥巴", 
+        "type": 3, 
+        "api": "./猫/nivod_op.js",
+		"ext":"888解优愁"
+      },
+      {"key":"蜂蜜旧泥巴","name":"蜂蜜旧泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":1},
+/*------------------------分割线------------------------*/
+{"key":"泥巴","name":"泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":"1"},
+/*------------------------分割线------------------------*/
   {
       "key": "AV_Netflav",
       "name": "🔞Netflav",
