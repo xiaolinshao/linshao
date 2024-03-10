@@ -1689,14 +1689,9 @@
         "copy": "https://cn.kstore.space/download/2904/123.txt"
       }]}
       ]
-    },{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "jar":"./磁力/磁力+netflav.jar",
+    },
+    {"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "jar":"./磁力/磁力+netflav.jar",
 			"ext":"./磁力/tokentemplate.json"},
-        {
-    "key": "push_agent",
-    "name": "❤推送 | lf_push",
-    "type": 3,
-    "api": "csp_Push"
-}
       ],
       
   "rules": [
