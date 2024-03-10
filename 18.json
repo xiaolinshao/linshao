@@ -1,6 +1,7 @@
 {
   "sites": [
   {"key":"路飞","name":"路飞直转点","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
+  {"key":"磁力点播","name":"磁力点播","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+磁力点播.txt"},
   { 
         "key": "🟢泥巴", 
         "name": "🟢 泥巴", 
@@ -396,7 +397,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 0
+            "changeable": 0,
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "csp_JavDb",
@@ -408,7 +410,8 @@
             "filterable": 1,
             "changeable": 0,
             "timeout": 1801,
-            "ext": "http://javdb523.com"
+            "ext": "http://javdb524.com",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "Cable",
@@ -431,7 +434,8 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json.txt.gz"
+            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json$$$http://akun.work.gd/upload/lib/pikpakclass.a.json.txt.gz",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "PikPakShare",
@@ -443,7 +447,8 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json.txt.gz"
+            "ext": "http://akun.work.gd/upload/lib/tokenm.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json$$$http://akun.work.gd/upload/lib/pikpakclass.a1.json.txt.gz",
+            "jar":"./磁力/磁力+netflav.jar"
         },
         {
             "key": "博明",
@@ -1682,7 +1687,8 @@
         "copy": "https://cn.kstore.space/download/2904/123.txt"
       }]}
       ]
-    },
+    },{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"},
         {
     "key": "push_agent",
     "name": "❤推送 | lf_push",
