@@ -85,7 +85,7 @@
 /*------------------------分割线------------------------*/
 {"key":"星星","name":"星视界|海外","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Star","searchable":1,"changeable":1},
 /*------------------------分割线------------------------*/
-{"key":"csp_Nbys","name":"蜂蜜新泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"changeable":1},
+{"key":"NBYY","name":"泥巴影院","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1},
 /*------------------------分割线------------------------*/
 {"key": "新6V","name": "新6V","type": 3,"api": "csp_Xb6v","searchable": 1,"changeable": 0,"style":{"type":"rect","ratio":1.485}},
 /*------------------------分割线------------------------*/
@@ -362,6 +362,13 @@
 {"key":"UpYun","name":"😻Up搜┃搜索","type":3,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431","api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
 {"key":"PanSearch","name":"🙀盘Se┃搜索","type":3,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431","api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
 {"key":"七夜","name":"😾七夜┃搜索","type":3,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431","api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
+{ 
+        "key": "🟢泥巴", 
+        "name": "🟢 泥巴", 
+        "type": 3, 
+        "api": "./猫/nivod_op.js",
+		"ext":"888解优愁"
+      },
       {
         "key": "doubanbb",
         "name": "🟢 片单",
