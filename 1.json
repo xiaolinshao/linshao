@@ -1,9 +1,5 @@
 {"sites":[
 /*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},
-{"key":"drpy_js_磁力熊","name":"豆瓣磁力|索引","type":3,"api":"./磁力/drpy2.min.js","ext":"./磁力/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
-			"indexs":1,
-			"jar":"./磁力/磁力+netflav.jar"
-		},
 {
             "key": "lf_js_p2p",
             "name": "磁力p2p",
