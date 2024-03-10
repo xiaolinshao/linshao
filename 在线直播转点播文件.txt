@@ -1,26 +1,20 @@
 [
-{"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./央妈.m3u","boot":false},
-/*------------------------分割线------------------------*/
-{"name":"半路捡来的","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"小小TV直播","type":0,"url":"https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"YouTube","type":0,"url":"https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"四千加","type":0,"url":"https://qu.ax/kBip.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"AK47","type":0,"url":"https://qu.ax/HtMB.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"三哥偷蜂蜜大屌18+","type":0,"url":"https://qu.ax/fMNM.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"垃圾堆成山","type":0,"url":"https://qu.ax/ktVO.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
-{"name":"┃龙龙🐉┃直播┃TV┃","type":0,"url":"https://jihulab.com/longtv/longtv/-/raw/main/tv.txt?inline=false","epg":""},
-/*------------------------分割线------------------------*/
-{"name":"┃龙龙🐉┃live┃","type":0,"url":"https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-/*------------------------分割线------------------------*/
+        {
+            "name": "半路捡来的",
+            "type": 0,
+            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
 {"name":"网友YouTube自用","type":0,"url":"https://raw.githubusercontent.com/xiaolinshao/TVBox/main/自用直播油管源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"酒店自动爬","type":0,"header":{"user-agent":"Mozilla/5.0(SymbianOS/9.4;Series60/5.0NokiaN97-1/20.0.019;Profile/MIDP-2.1Configuration/CLDC-1.1)AppleWebKit/525(KHTML,likeGecko)BrowserNG/7.1.18124","referer":"https://github.com/"},"url":"https://cdn.jsdelivr.net/gh/ssili126/tv/itv.tx","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+{"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./央妈.m3u","boot":false},
+{"name":"酒店自动爬","type":0,"header":{"user-agent":"Mozilla/5.0(SymbianOS/9.4;Series60/5.0NokiaN97-1/20.0.019;Profile/MIDP-2.1Configuration/CLDC-1.1)AppleWebKit/525(KHTML,likeGecko)BrowserNG/7.1.18124","referer":"https://github.com/"},"url":"https://cdn.jsdelivr.net/gh/ssili126/tv/itv.tx","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"小小TV直播","type":0,"url":"https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"YouTube","type":0,"url":"https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"四千加","type":0,"url":"https://qu.ax/kBip.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"AK47","type":0,"url":"https://qu.ax/HtMB.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"垃圾堆成山","type":0,"url":"https://qu.ax/ktVO.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"┃龙龙🐉┃直播┃TV┃","type":0,"url":"https://jihulab.com/longtv/longtv/-/raw/main/tv.txt?inline=false","epg":""},
+{"name":"┃龙龙🐉┃live┃","type":0,"url":"https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 ]
