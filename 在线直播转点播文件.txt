@@ -1,10 +1,4 @@
-[{
-            "name": "韩国🇰🇷综艺",
-            "type": 0,
-            "url": "https://raw.githubusercontent.com/xiaolinshao/linshao/main/韩国🇰🇷综艺.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo":"https://epg.112114.xyz/logo/{name}.png"
-        },
+[
         {
             "name": "半路捡来的",
             "type": 0,
