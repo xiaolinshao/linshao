@@ -1,6 +1,6 @@
 #IPTV
 1
+#18 千部独家传媒无水印来袭tvlist
+https://raw.githubusercontent.com/xiaolinshao/linshao/main/18 千部独家传媒无水印来袭tvlist.txt
 #18+点播
 https://raw.githubusercontent.com/xiaolinshao/linshao/main/18点播文件.txt
-#在线直播转点播文件
-https://raw.githubusercontent.com/xiaolinshao/linshao/main/在线直播转点播文件.txt
