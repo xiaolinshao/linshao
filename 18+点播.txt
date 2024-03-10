@@ -1,5 +1,7 @@
 #IPTV
 1
+#韩国🇰🇷综艺
+https://raw.githubusercontent.com/xiaolinshao/linshao/main/24小时.txt
 #18 千部独家传媒无水印来袭tvlist
 https://raw.githubusercontent.com/xiaolinshao/linshao/main/18 千部独家传媒无水印来袭tvlist.txt
 #18+点播
