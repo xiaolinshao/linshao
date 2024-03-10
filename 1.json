@@ -11,6 +11,16 @@
             "api": "./lf_p2p2_min.js",
             "ext": "18+"
         },
+		{
+			"key": "网盘配置",
+			"name": "磁力+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
         {
       "key": "Yinyuetai",
       "name": "🛰音悦台┃音乐┃MV",

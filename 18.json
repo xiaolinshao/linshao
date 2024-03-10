@@ -10,14 +10,24 @@
       },
       {"key":"蜂蜜旧泥巴","name":"蜂蜜旧泥巴","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_NiNi","searchable":1,"ext":1},
 /*------------------------分割线------------------------*/
-  {
+	{
+			"key": "网盘配置",
+			"name": "磁力设置+网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"jar":"./磁力/磁力+netflav.jar",
+			"ext":"./磁力/tokentemplate.json"
+		},
+		{
       "key": "AV_Netflav",
       "name": "🔞Netflav",
       "type": 3,
       "api": "csp_Netflav",
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 0",
+      "filterable": 0,
       "jar":"./netflav.jar"
        },
        {"key":"Taohuazu","name":"🔞桃花族","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60,"jar":"./netflav.jar"},
