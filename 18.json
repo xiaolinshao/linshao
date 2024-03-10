@@ -1,5 +1,7 @@
 {
-  "sites": [{
+  "sites": [
+  {"key":"路飞","name":"路飞直转点","type":3,"style":{"type":"rect","ratio":1.485},"style":{"type":"oval"},"api":"./路飞直播转点播.js","searchable":1,"changeable":1,"ext":"./18+点播.txt"},
+  {
       "key": "AV_Netflav",
       "name": "🔞Netflav",
       "type": 3,

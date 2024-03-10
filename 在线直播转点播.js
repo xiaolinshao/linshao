@@ -26,7 +26,8 @@ const VERSION = 'live2cms 20230616';
 const UA = 'Mozilla/5.0'; //默认请求ua
 const __ext = {data_dict:{}};
 const tips = `\n道长直播转点播js-当前版本${VERSION}`;
-const def_pic = 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
+const def_pic = 'https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg';
+/*https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
 /**
  * 打印日志
  * @param any 任意变量
