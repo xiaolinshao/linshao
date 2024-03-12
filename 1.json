@@ -1,5 +1,5 @@
 {"sites":[
-/*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},
+/*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},{"key": "Fangniu4k","name": "放牛4K","type": 3,"api": "csp_Fangniu4k","searchable": 1,"changeable": 1,"jar":"./放牛4k.jar"},
 {
 			"key": "网盘配置",
 			"name": "磁力+网盘及彈幕配置",
