@@ -1,6 +1,29 @@
 {"sites":[
 /*------------------------分割线------------------------*/{"key":"lf_js_search","name":"路飞豆瓣|lf_search","type":3,"style":{"type":"rect","ratio":1.485},"searchable":0,"changeable":0,"quickSearch":0,"filterable":1,"api":"./路飞豆瓣.js"},{"key": "Fangniu4k","name": "放牛4K","type": 3,"api": "csp_Fangniu4k","searchable": 1,"changeable": 1,"jar":"./放牛4k.jar"},
 {
+"key":"小苹果",
+"name":"偷来",
+"type":3,
+"api":"csp_LiteApple",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"jar":"./小🍎.jar"
+},     
+{
+"key":"bf3",
+"name":"偷来的啦",
+"type":3,"jar":"./磁力搜索.jar",
+"api":"csp_Kuaikan",
+"searchable":1,
+"quickSearch":1,"filterable":1},
+{
+      "key":"bf5",
+            "name":"偷来的",
+            "type":3,"jar":"./磁力搜索.jar",
+            "type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Bili","name":"B站","type": 3,"api": "csp_Bili","jar":"./磁力搜索.jar","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./B站.json"},
+{
 			"key": "网盘配置",
 			"name": "磁力+网盘及彈幕配置",
 			"type": 3,
@@ -32,6 +55,7 @@
 			"jar":"./磁力/磁力+netflav.jar",
 			"ext":"./磁力/tokentemplate.json"
 		},
+{"key":"csp_Alist","name":"🗂Alist","type":3,"api":"csp_Alist","searchable":1,"quickSearch":0,"filterable":0,"ext":"http://xpgtv.net/html/box/json/Alist.json"},
 		{"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"jar":"./磁力/磁力+netflav.jar","quickSearch": 1,"filterable": 1},
         {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_KubaCL","name":"🧲酷吧电影","type":3,"jar":"./磁力/磁力+netflav.jar","api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
