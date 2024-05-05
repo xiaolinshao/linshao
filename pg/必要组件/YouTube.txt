@@ -1,0 +1,16 @@
+YouTube,#genre#
+TVBS新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+民視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+三立新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+三立財經,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+東森新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=R2iMq5LKXco
+EBC東森財經,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+華視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
+鏡新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+凤凰卫视,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
+东森财经股市,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=LbS-xQ67fos
+KOMPASTV,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=4rmf-lk3ito
+东京新宿,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:2001|127.0.0.1:2002&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
