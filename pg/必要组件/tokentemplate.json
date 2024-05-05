@@ -23,7 +23,7 @@
 "thunder_vip_thread_limit":2,
 "thunder_flags":"4k|4kz|auto",
 "aliproxy":"",
-"aliproxy_url":"./aliproxy.gz",
+"aliproxy_url":"",
 "proxy":"",
 "danmu":true,
 "quark_danmu":true,
@@ -41,7 +41,7 @@
 "pikpak_flags":"4k|auto",
 "pikpak_thread_limit":2,
 "pikpak_vip_thread_limit":2,
-"pikpak_proxy":"",
+"pikpak_proxy":"127.0.0.1:10071",
 "pikpak_proxy_onlyapi":true,
 "pikpak_danmu":false,
 /*在线可配置
