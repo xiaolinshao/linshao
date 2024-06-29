@@ -214,7 +214,7 @@
         "clash_api": {
             "external_controller": "0.0.0.0:19090",
             "external_ui": "ui",
-            "external_ui_download_url": "http://666.ewwe.gq/xiaolinshao/linshao/main/gh-pages.zip",
+            "external_ui_download_url": "https://down.nigx.cn/github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
             "external_ui_download_detour": "select",
             "default_mode": "rule"
         }
